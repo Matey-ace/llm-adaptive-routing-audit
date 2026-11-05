@@ -1,0 +1,1943 @@
+{
+  "baseline": {
+    "method_validation": "passed",
+    "seed": 20261020,
+    "draws": 2000,
+    "margin": -0.03,
+    "sources": {
+      "gsm8k": {
+        "primary_stratified_cp": {
+          "n": 1000,
+          "difference_bounds": [
+            0.0,
+            0.0
+          ],
+          "confidence_interval": [
+            -0.02411280688378458,
+            0.02428791069719752
+          ],
+          "lower_gt_minus_003": true,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 354,
+            "hard": 166,
+            "medium": 480
+          }
+        },
+        "unstratified_cp_known_only": {
+          "n": 1000,
+          "confidence_interval": [
+            -0.010357066547158764,
+            0.010357066547158764
+          ],
+          "lower_gt_minus_003": true
+        },
+        "sensitivity": {
+          "unknown_zero_cp": {
+            "n": 1000,
+            "confidence_interval": [
+              -0.02411280688378458,
+              0.02428791069719752
+            ],
+            "lower_gt_minus_003": true,
+            "policy": "unknown_zero"
+          },
+          "unknown_zero_newcombe10": {
+            "n": 1000,
+            "policy": "zero",
+            "table": {
+              "both_correct": 959,
+              "a_only": 4,
+              "b_only": 4,
+              "neither_correct": 33
+            },
+            "difference": 0.0,
+            "newcombe10_95": [
+              -0.006855492246849827,
+              0.006855492246849827
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 1.0
+          },
+          "known_labels_newcombe10": {
+            "n": 1000,
+            "policy": "known",
+            "table": {
+              "both_correct": 959,
+              "a_only": 4,
+              "b_only": 4,
+              "neither_correct": 33
+            },
+            "difference": 0.0,
+            "newcombe10_95": [
+              -0.006855492246849827,
+              0.006855492246849827
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 1.0
+          },
+          "complete_execution_cp": {
+            "n": 1000,
+            "difference_bounds": [
+              0.0,
+              0.0
+            ],
+            "confidence_interval": [
+              -0.02411280688378458,
+              0.02428791069719752
+            ],
+            "lower_gt_minus_003": true,
+            "unknown_pairs": 0,
+            "strata": {
+              "easy": 354,
+              "hard": 166,
+              "medium": 480
+            }
+          },
+          "complete_execution_known_newcombe10": {
+            "n": 1000,
+            "policy": "known",
+            "table": {
+              "both_correct": 959,
+              "a_only": 4,
+              "b_only": 4,
+              "neither_correct": 33
+            },
+            "difference": 0.0,
+            "newcombe10_95": [
+              -0.006855492246849827,
+              0.006855492246849827
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 1.0
+          }
+        },
+        "denominators": {
+          "planned_pairs": 1000,
+          "started_pairs": 1000,
+          "known_pairs": 1000,
+          "started_but_unknown_pairs": 0
+        },
+        "resources": {
+          "total_tokens": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": 229.687,
+            "cluster_bootstrap_95": [
+              127.34635,
+              326.6067499999999
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          },
+          "n_calls": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": -0.23,
+            "cluster_bootstrap_95": [
+              -0.281025,
+              -0.179
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          }
+        }
+      },
+      "math": {
+        "primary_stratified_cp": {
+          "n": 1000,
+          "difference_bounds": [
+            -0.11,
+            0.10600000000000001
+          ],
+          "confidence_interval": [
+            -0.16730713902526528,
+            0.16509378482815473
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 135,
+          "strata": {
+            "easy": 259,
+            "hard": 523,
+            "medium": 218
+          }
+        },
+        "unstratified_cp_known_only": {
+          "n": 865,
+          "confidence_interval": [
+            -0.017393321575131647,
+            0.012843440428770232
+          ],
+          "lower_gt_minus_003": true
+        },
+        "sensitivity": {
+          "unknown_zero_cp": {
+            "n": 1000,
+            "confidence_interval": [
+              -0.050869725442705085,
+              0.050401999292863126
+            ],
+            "lower_gt_minus_003": false,
+            "policy": "unknown_zero"
+          },
+          "unknown_zero_newcombe10": {
+            "n": 1000,
+            "policy": "zero",
+            "table": {
+              "both_correct": 829,
+              "a_only": 30,
+              "b_only": 30,
+              "neither_correct": 111
+            },
+            "difference": 0.0,
+            "newcombe10_95": [
+              -0.015523583432250203,
+              0.015523583432250203
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 1.0
+          },
+          "known_labels_newcombe10": {
+            "n": 865,
+            "policy": "known",
+            "table": {
+              "both_correct": 829,
+              "a_only": 6,
+              "b_only": 8,
+              "neither_correct": 22
+            },
+            "difference": -0.0023121387283236996,
+            "newcombe10_95": [
+              -0.012129771959384226,
+              0.007223561511944412
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.79052734375
+          },
+          "complete_execution_cp": {
+            "n": 998,
+            "difference_bounds": [
+              -0.10821643286573146,
+              0.10821643286573146
+            ],
+            "confidence_interval": [
+              -0.16540852528680647,
+              0.16613583065582144
+            ],
+            "lower_gt_minus_003": false,
+            "unknown_pairs": 135,
+            "strata": {
+              "easy": 259,
+              "hard": 521,
+              "medium": 218
+            }
+          },
+          "complete_execution_known_newcombe10": {
+            "n": 863,
+            "policy": "known",
+            "table": {
+              "both_correct": 829,
+              "a_only": 6,
+              "b_only": 6,
+              "neither_correct": 22
+            },
+            "difference": 0.0,
+            "newcombe10_95": [
+              -0.0091612502199424,
+              0.009161250219942402
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 1.0
+          }
+        },
+        "denominators": {
+          "planned_pairs": 1000,
+          "started_pairs": 1000,
+          "known_pairs": 865,
+          "started_but_unknown_pairs": 135
+        },
+        "resources": {
+          "total_tokens": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": 183.016,
+            "cluster_bootstrap_95": [
+              59.0432,
+              296.2751999999999
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          },
+          "n_calls": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": -0.341,
+            "cluster_bootstrap_95": [
+              -0.400025,
+              -0.2829750000000001
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          }
+        }
+      }
+    },
+    "repeat_consistency": {
+      "gsm8k": {
+        "source": "gsm8k",
+        "n_tasks_in_subset": 300,
+        "per_repeat_counts": {
+          "0": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 291,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 290,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "1": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 292,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 289,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "2": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 289,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 290,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          }
+        },
+        "within_task_consistency": {
+          "adaptive": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.98,
+            "conditional_on_three_known": true
+          },
+          "plan_reflect": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.99,
+            "conditional_on_three_known": true
+          }
+        },
+        "clustered_task_level_difference": {
+          "n_tasks": 300,
+          "difference_bounds": [
+            0.003333333333333334,
+            0.003333333333333334
+          ],
+          "cluster_bootstrap_outer95": [
+            -0.0033333333333333335,
+            0.01111111111111111
+          ],
+          "draws": 2000,
+          "seed": 20261020
+        },
+        "note": "Fixed 300 tasks per source; errors remain zero; all missing/unknown repeats retain bounds."
+      },
+      "math": {
+        "source": "math",
+        "n_tasks_in_subset": 300,
+        "per_repeat_counts": {
+          "0": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 257,
+            "adaptive_known_including_errors": 270,
+            "adaptive_unknown_or_missing": 30,
+            "adaptive_execution_failures": 2,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 262,
+            "plan_reflect_known_including_errors": 272,
+            "plan_reflect_unknown_or_missing": 28,
+            "plan_reflect_execution_failures": 0
+          },
+          "1": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 260,
+            "adaptive_known_including_errors": 274,
+            "adaptive_unknown_or_missing": 26,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 262,
+            "plan_reflect_known_including_errors": 275,
+            "plan_reflect_unknown_or_missing": 25,
+            "plan_reflect_execution_failures": 2
+          },
+          "2": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 263,
+            "adaptive_known_including_errors": 275,
+            "adaptive_unknown_or_missing": 25,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 261,
+            "plan_reflect_known_including_errors": 271,
+            "plan_reflect_unknown_or_missing": 29,
+            "plan_reflect_execution_failures": 1
+          }
+        },
+        "within_task_consistency": {
+          "adaptive": {
+            "tasks_with_three_known_repeats": 260,
+            "identical_outcome_rate": 0.9769230769230769,
+            "conditional_on_three_known": true
+          },
+          "plan_reflect": {
+            "tasks_with_three_known_repeats": 262,
+            "identical_outcome_rate": 0.9809160305343512,
+            "conditional_on_three_known": true
+          }
+        },
+        "clustered_task_level_difference": {
+          "n_tasks": 300,
+          "difference_bounds": [
+            -0.09666666666666666,
+            0.08444444444444443
+          ],
+          "cluster_bootstrap_outer95": [
+            -0.12777777777777777,
+            0.11555555555555555
+          ],
+          "draws": 2000,
+          "seed": 20261020
+        },
+        "note": "Fixed 300 tasks per source; errors remain zero; all missing/unknown repeats retain bounds."
+      }
+    },
+    "all_sources_pooled": {
+      "role": "descriptive_only_not_for_primary_claim",
+      "n_pairs": 2000,
+      "stratified_cp": {
+        "n": 2000,
+        "difference_bounds": [
+          -0.055,
+          0.05299999999999999
+        ],
+        "confidence_interval": [
+          -0.08669450173727647,
+          0.08571094033584656
+        ],
+        "lower_gt_minus_003": false,
+        "unknown_pairs": 135,
+        "strata": {
+          "easy": 613,
+          "hard": 689,
+          "medium": 698
+        }
+      },
+      "known_labels_newcombe10": {
+        "n": 1865,
+        "policy": "known",
+        "table": {
+          "both_correct": 1788,
+          "a_only": 10,
+          "b_only": 12,
+          "neither_correct": 55
+        },
+        "difference": -0.0010723860589812334,
+        "newcombe10_95": [
+          -0.006495483773243228,
+          0.0042737151592350895
+        ],
+        "post_test_lower_gt_minus_003": true,
+        "mcnemar_exact_zero_difference_p": 0.8318119049072266
+      },
+      "unknown_zero_newcombe10": {
+        "n": 2000,
+        "policy": "zero",
+        "table": {
+          "both_correct": 1788,
+          "a_only": 34,
+          "b_only": 34,
+          "neither_correct": 144
+        },
+        "difference": 0.0,
+        "newcombe10_95": [
+          -0.008283798487971844,
+          0.008283798487971844
+        ],
+        "post_test_lower_gt_minus_003": true,
+        "mcnemar_exact_zero_difference_p": 1.0
+      }
+    },
+    "per_repeat_paired_cp": {
+      "gsm8k": {
+        "1": {
+          "n": 300,
+          "difference_bounds": [
+            0.01,
+            0.01
+          ],
+          "confidence_interval": [
+            -0.05270244735962433,
+            0.07206497913662935
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 106,
+            "hard": 50,
+            "medium": 144
+          }
+        },
+        "2": {
+          "n": 300,
+          "difference_bounds": [
+            -0.0033333333333333335,
+            -0.0033333333333333335
+          ],
+          "confidence_interval": [
+            -0.07335385911378005,
+            0.0664711166709763
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 106,
+            "hard": 50,
+            "medium": 144
+          }
+        }
+      },
+      "math": {
+        "1": {
+          "n": 300,
+          "difference_bounds": [
+            -0.09000000000000001,
+            0.08
+          ],
+          "confidence_interval": [
+            -0.2066013288361077,
+            0.18892882339335695
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 32,
+          "strata": {
+            "easy": 78,
+            "hard": 157,
+            "medium": 65
+          }
+        },
+        "2": {
+          "n": 300,
+          "difference_bounds": [
+            -0.09,
+            0.09000000000000001
+          ],
+          "confidence_interval": [
+            -0.19437674838689378,
+            0.19472731328346474
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 35,
+          "strata": {
+            "easy": 78,
+            "hard": 157,
+            "medium": 65
+          }
+        }
+      }
+    },
+    "label_counts_by_phase_source_strategy": {
+      "main/gsm8k/adaptive": {
+        "n": 1000,
+        "correct": 963,
+        "incorrect": 37,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.963,
+          0.963
+        ]
+      },
+      "main/gsm8k/plan_reflect": {
+        "n": 1000,
+        "correct": 963,
+        "incorrect": 37,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.963,
+          0.963
+        ]
+      },
+      "main/math/adaptive": {
+        "n": 1000,
+        "correct": 859,
+        "incorrect": 35,
+        "unknown": 106,
+        "accuracy_bounds": [
+          0.859,
+          0.965
+        ]
+      },
+      "main/math/plan_reflect": {
+        "n": 1000,
+        "correct": 859,
+        "incorrect": 31,
+        "unknown": 110,
+        "accuracy_bounds": [
+          0.859,
+          0.969
+        ]
+      },
+      "matched_repeat/gsm8k/adaptive": {
+        "n": 600,
+        "correct": 581,
+        "incorrect": 19,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9683333333333334,
+          0.9683333333333334
+        ]
+      },
+      "matched_repeat/gsm8k/plan_reflect": {
+        "n": 600,
+        "correct": 579,
+        "incorrect": 21,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.965,
+          0.965
+        ]
+      },
+      "matched_repeat/math/adaptive": {
+        "n": 600,
+        "correct": 523,
+        "incorrect": 26,
+        "unknown": 51,
+        "accuracy_bounds": [
+          0.8716666666666667,
+          0.9566666666666667
+        ]
+      },
+      "matched_repeat/math/plan_reflect": {
+        "n": 600,
+        "correct": 523,
+        "incorrect": 23,
+        "unknown": 54,
+        "accuracy_bounds": [
+          0.8716666666666667,
+          0.9616666666666667
+        ]
+      }
+    },
+    "all_labels": {
+      "1": 5850,
+      "None": 321,
+      "0": 229
+    }
+  },
+  "audit_original_gold": {
+    "method_validation": "passed",
+    "seed": 20261020,
+    "draws": 2000,
+    "margin": -0.03,
+    "sources": {
+      "gsm8k": {
+        "primary_stratified_cp": {
+          "n": 1000,
+          "difference_bounds": [
+            0.002,
+            0.004
+          ],
+          "confidence_interval": [
+            -0.02173510050086693,
+            0.027652379450038574
+          ],
+          "lower_gt_minus_003": true,
+          "unknown_pairs": 1,
+          "strata": {
+            "easy": 354,
+            "hard": 166,
+            "medium": 480
+          }
+        },
+        "unstratified_cp_known_only": {
+          "n": 999,
+          "confidence_interval": [
+            -0.006748757081695877,
+            0.012561054468632362
+          ],
+          "lower_gt_minus_003": true
+        },
+        "sensitivity": {
+          "unknown_zero_cp": {
+            "n": 1000,
+            "confidence_interval": [
+              -0.01989396466209855,
+              0.025517769620731882
+            ],
+            "lower_gt_minus_003": true,
+            "policy": "unknown_zero"
+          },
+          "unknown_zero_newcombe10": {
+            "n": 1000,
+            "policy": "zero",
+            "table": {
+              "both_correct": 981,
+              "a_only": 5,
+              "b_only": 2,
+              "neither_correct": 12
+            },
+            "difference": 0.003,
+            "newcombe10_95": [
+              -0.0033084361848375295,
+              0.009986682171108026
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.453125
+          },
+          "known_labels_newcombe10": {
+            "n": 999,
+            "policy": "known",
+            "table": {
+              "both_correct": 981,
+              "a_only": 5,
+              "b_only": 2,
+              "neither_correct": 11
+            },
+            "difference": 0.003003003003003003,
+            "newcombe10_95": [
+              -0.0033069308851925664,
+              0.010008608247500161
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.453125
+          },
+          "complete_execution_cp": {
+            "n": 1000,
+            "difference_bounds": [
+              0.002,
+              0.004
+            ],
+            "confidence_interval": [
+              -0.02173510050086693,
+              0.027652379450038574
+            ],
+            "lower_gt_minus_003": true,
+            "unknown_pairs": 1,
+            "strata": {
+              "easy": 354,
+              "hard": 166,
+              "medium": 480
+            }
+          },
+          "complete_execution_known_newcombe10": {
+            "n": 999,
+            "policy": "known",
+            "table": {
+              "both_correct": 981,
+              "a_only": 5,
+              "b_only": 2,
+              "neither_correct": 11
+            },
+            "difference": 0.003003003003003003,
+            "newcombe10_95": [
+              -0.0033069308851925664,
+              0.010008608247500161
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.453125
+          }
+        },
+        "denominators": {
+          "planned_pairs": 1000,
+          "started_pairs": 1000,
+          "known_pairs": 999,
+          "started_but_unknown_pairs": 1
+        },
+        "resources": {
+          "total_tokens": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": 229.687,
+            "cluster_bootstrap_95": [
+              127.34635,
+              326.6067499999999
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          },
+          "n_calls": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": -0.23,
+            "cluster_bootstrap_95": [
+              -0.281025,
+              -0.179
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          }
+        }
+      },
+      "math": {
+        "primary_stratified_cp": {
+          "n": 1000,
+          "difference_bounds": [
+            -0.004,
+            0.0
+          ],
+          "confidence_interval": [
+            -0.029526826161693852,
+            0.025698466868208984
+          ],
+          "lower_gt_minus_003": true,
+          "unknown_pairs": 2,
+          "strata": {
+            "easy": 259,
+            "hard": 523,
+            "medium": 218
+          }
+        },
+        "unstratified_cp_known_only": {
+          "n": 998,
+          "confidence_interval": [
+            -0.0122656889931436,
+            0.008367728228480625
+          ],
+          "lower_gt_minus_003": true
+        },
+        "sensitivity": {
+          "unknown_zero_cp": {
+            "n": 1000,
+            "confidence_interval": [
+              -0.026216833852691246,
+              0.022155888891508022
+            ],
+            "lower_gt_minus_003": true,
+            "policy": "unknown_zero"
+          },
+          "unknown_zero_newcombe10": {
+            "n": 1000,
+            "policy": "zero",
+            "table": {
+              "both_correct": 980,
+              "a_only": 3,
+              "b_only": 5,
+              "neither_correct": 12
+            },
+            "difference": -0.002,
+            "newcombe10_95": [
+              -0.009144427901980466,
+              0.00472547107066634
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.7265625
+          },
+          "known_labels_newcombe10": {
+            "n": 998,
+            "policy": "known",
+            "table": {
+              "both_correct": 980,
+              "a_only": 3,
+              "b_only": 5,
+              "neither_correct": 10
+            },
+            "difference": -0.002004008016032064,
+            "newcombe10_95": [
+              -0.009180030360794997,
+              0.004732854271648311
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.7265625
+          },
+          "complete_execution_cp": {
+            "n": 998,
+            "difference_bounds": [
+              -0.0020040080160320635,
+              0.0020040080160320644
+            ],
+            "confidence_interval": [
+              -0.026269112688914676,
+              0.02584408790432416
+            ],
+            "lower_gt_minus_003": true,
+            "unknown_pairs": 2,
+            "strata": {
+              "easy": 259,
+              "hard": 521,
+              "medium": 218
+            }
+          },
+          "complete_execution_known_newcombe10": {
+            "n": 996,
+            "policy": "known",
+            "table": {
+              "both_correct": 980,
+              "a_only": 3,
+              "b_only": 3,
+              "neither_correct": 10
+            },
+            "difference": 0.0,
+            "newcombe10_95": [
+              -0.00640338588206497,
+              0.00640338588206497
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 1.0
+          }
+        },
+        "denominators": {
+          "planned_pairs": 1000,
+          "started_pairs": 1000,
+          "known_pairs": 998,
+          "started_but_unknown_pairs": 2
+        },
+        "resources": {
+          "total_tokens": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": 183.016,
+            "cluster_bootstrap_95": [
+              59.0432,
+              296.2751999999999
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          },
+          "n_calls": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": -0.341,
+            "cluster_bootstrap_95": [
+              -0.400025,
+              -0.2829750000000001
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          }
+        }
+      }
+    },
+    "repeat_consistency": {
+      "gsm8k": {
+        "source": "gsm8k",
+        "n_tasks_in_subset": 300,
+        "per_repeat_counts": {
+          "0": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 297,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 296,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "1": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 298,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 295,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "2": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 297,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 296,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          }
+        },
+        "within_task_consistency": {
+          "adaptive": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.9933333333333333,
+            "conditional_on_three_known": true
+          },
+          "plan_reflect": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.99,
+            "conditional_on_three_known": true
+          }
+        },
+        "clustered_task_level_difference": {
+          "n_tasks": 300,
+          "difference_bounds": [
+            0.005555555555555555,
+            0.005555555555555555
+          ],
+          "cluster_bootstrap_outer95": [
+            -0.0011111111111111111,
+            0.013333333333333334
+          ],
+          "draws": 2000,
+          "seed": 20261020
+        },
+        "note": "Fixed 300 tasks per source; errors remain zero; all missing/unknown repeats retain bounds."
+      },
+      "math": {
+        "source": "math",
+        "n_tasks_in_subset": 300,
+        "per_repeat_counts": {
+          "0": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 294,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 2,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 297,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "1": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 295,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 295,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 2
+          },
+          "2": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 296,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 297,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 1
+          }
+        },
+        "within_task_consistency": {
+          "adaptive": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.9833333333333333,
+            "conditional_on_three_known": true
+          },
+          "plan_reflect": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.9866666666666667,
+            "conditional_on_three_known": true
+          }
+        },
+        "clustered_task_level_difference": {
+          "n_tasks": 300,
+          "difference_bounds": [
+            -0.0044444444444444444,
+            -0.0044444444444444444
+          ],
+          "cluster_bootstrap_outer95": [
+            -0.01111111111111111,
+            0.0011111111111111111
+          ],
+          "draws": 2000,
+          "seed": 20261020
+        },
+        "note": "Fixed 300 tasks per source; errors remain zero; all missing/unknown repeats retain bounds."
+      }
+    },
+    "all_sources_pooled": {
+      "role": "descriptive_only_not_for_primary_claim",
+      "n_pairs": 2000,
+      "stratified_cp": {
+        "n": 2000,
+        "difference_bounds": [
+          -0.001,
+          0.002
+        ],
+        "confidence_interval": [
+          -0.01696589861666216,
+          0.017768298792117245
+        ],
+        "lower_gt_minus_003": true,
+        "unknown_pairs": 3,
+        "strata": {
+          "easy": 613,
+          "hard": 689,
+          "medium": 698
+        }
+      },
+      "known_labels_newcombe10": {
+        "n": 1997,
+        "policy": "known",
+        "table": {
+          "both_correct": 1961,
+          "a_only": 8,
+          "b_only": 7,
+          "neither_correct": 21
+        },
+        "difference": 0.000500751126690035,
+        "newcombe10_95": [
+          -0.0038098064565457628,
+          0.00487567729674205
+        ],
+        "post_test_lower_gt_minus_003": true,
+        "mcnemar_exact_zero_difference_p": 1.0
+      },
+      "unknown_zero_newcombe10": {
+        "n": 2000,
+        "policy": "zero",
+        "table": {
+          "both_correct": 1961,
+          "a_only": 8,
+          "b_only": 7,
+          "neither_correct": 24
+        },
+        "difference": 0.0005,
+        "newcombe10_95": [
+          -0.003802867920275378,
+          0.0048647631835362715
+        ],
+        "post_test_lower_gt_minus_003": true,
+        "mcnemar_exact_zero_difference_p": 1.0
+      }
+    },
+    "per_repeat_paired_cp": {
+      "gsm8k": {
+        "1": {
+          "n": 300,
+          "difference_bounds": [
+            0.01,
+            0.01
+          ],
+          "confidence_interval": [
+            -0.05270244735962433,
+            0.07206497913662935
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 106,
+            "hard": 50,
+            "medium": 144
+          }
+        },
+        "2": {
+          "n": 300,
+          "difference_bounds": [
+            0.0033333333333333335,
+            0.0033333333333333335
+          ],
+          "confidence_interval": [
+            -0.05958518987476239,
+            0.0650996373164563
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 106,
+            "hard": 50,
+            "medium": 144
+          }
+        }
+      },
+      "math": {
+        "1": {
+          "n": 300,
+          "difference_bounds": [
+            0.0,
+            0.0
+          ],
+          "confidence_interval": [
+            -0.0667330002658317,
+            0.06681587052458425
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 78,
+            "hard": 157,
+            "medium": 65
+          }
+        },
+        "2": {
+          "n": 300,
+          "difference_bounds": [
+            -0.0033333333333333335,
+            -0.0033333333333333335
+          ],
+          "confidence_interval": [
+            -0.0668297879822768,
+            0.06005795216385504
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 78,
+            "hard": 157,
+            "medium": 65
+          }
+        }
+      }
+    },
+    "label_counts_by_phase_source_strategy": {
+      "main/gsm8k/adaptive": {
+        "n": 1000,
+        "correct": 986,
+        "incorrect": 13,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.986,
+          0.987
+        ]
+      },
+      "main/gsm8k/plan_reflect": {
+        "n": 1000,
+        "correct": 983,
+        "incorrect": 16,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.983,
+          0.984
+        ]
+      },
+      "main/math/adaptive": {
+        "n": 1000,
+        "correct": 983,
+        "incorrect": 15,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.983,
+          0.985
+        ]
+      },
+      "main/math/plan_reflect": {
+        "n": 1000,
+        "correct": 985,
+        "incorrect": 13,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.985,
+          0.987
+        ]
+      },
+      "matched_repeat/gsm8k/adaptive": {
+        "n": 600,
+        "correct": 595,
+        "incorrect": 5,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9916666666666667,
+          0.9916666666666667
+        ]
+      },
+      "matched_repeat/gsm8k/plan_reflect": {
+        "n": 600,
+        "correct": 591,
+        "incorrect": 9,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.985,
+          0.985
+        ]
+      },
+      "matched_repeat/math/adaptive": {
+        "n": 600,
+        "correct": 591,
+        "incorrect": 9,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.985,
+          0.985
+        ]
+      },
+      "matched_repeat/math/plan_reflect": {
+        "n": 600,
+        "correct": 592,
+        "incorrect": 8,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9866666666666667,
+          0.9866666666666667
+        ]
+      }
+    },
+    "all_labels": {
+      "1": 6306,
+      "0": 88,
+      "None": 6
+    }
+  },
+  "audit_gold_sensitivity": {
+    "method_validation": "passed",
+    "seed": 20261020,
+    "draws": 2000,
+    "margin": -0.03,
+    "sources": {
+      "gsm8k": {
+        "primary_stratified_cp": {
+          "n": 1000,
+          "difference_bounds": [
+            0.002,
+            0.004
+          ],
+          "confidence_interval": [
+            -0.02173510050086693,
+            0.027652379450038574
+          ],
+          "lower_gt_minus_003": true,
+          "unknown_pairs": 1,
+          "strata": {
+            "easy": 354,
+            "hard": 166,
+            "medium": 480
+          }
+        },
+        "unstratified_cp_known_only": {
+          "n": 999,
+          "confidence_interval": [
+            -0.006748757081695877,
+            0.012561054468632362
+          ],
+          "lower_gt_minus_003": true
+        },
+        "sensitivity": {
+          "unknown_zero_cp": {
+            "n": 1000,
+            "confidence_interval": [
+              -0.01989396466209855,
+              0.025517769620731882
+            ],
+            "lower_gt_minus_003": true,
+            "policy": "unknown_zero"
+          },
+          "unknown_zero_newcombe10": {
+            "n": 1000,
+            "policy": "zero",
+            "table": {
+              "both_correct": 981,
+              "a_only": 5,
+              "b_only": 2,
+              "neither_correct": 12
+            },
+            "difference": 0.003,
+            "newcombe10_95": [
+              -0.0033084361848375295,
+              0.009986682171108026
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.453125
+          },
+          "known_labels_newcombe10": {
+            "n": 999,
+            "policy": "known",
+            "table": {
+              "both_correct": 981,
+              "a_only": 5,
+              "b_only": 2,
+              "neither_correct": 11
+            },
+            "difference": 0.003003003003003003,
+            "newcombe10_95": [
+              -0.0033069308851925664,
+              0.010008608247500161
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.453125
+          },
+          "complete_execution_cp": {
+            "n": 1000,
+            "difference_bounds": [
+              0.002,
+              0.004
+            ],
+            "confidence_interval": [
+              -0.02173510050086693,
+              0.027652379450038574
+            ],
+            "lower_gt_minus_003": true,
+            "unknown_pairs": 1,
+            "strata": {
+              "easy": 354,
+              "hard": 166,
+              "medium": 480
+            }
+          },
+          "complete_execution_known_newcombe10": {
+            "n": 999,
+            "policy": "known",
+            "table": {
+              "both_correct": 981,
+              "a_only": 5,
+              "b_only": 2,
+              "neither_correct": 11
+            },
+            "difference": 0.003003003003003003,
+            "newcombe10_95": [
+              -0.0033069308851925664,
+              0.010008608247500161
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.453125
+          }
+        },
+        "denominators": {
+          "planned_pairs": 1000,
+          "started_pairs": 1000,
+          "known_pairs": 999,
+          "started_but_unknown_pairs": 1
+        },
+        "resources": {
+          "total_tokens": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": 229.687,
+            "cluster_bootstrap_95": [
+              127.34635,
+              326.6067499999999
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          },
+          "n_calls": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": -0.23,
+            "cluster_bootstrap_95": [
+              -0.281025,
+              -0.179
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          }
+        }
+      },
+      "math": {
+        "primary_stratified_cp": {
+          "n": 1000,
+          "difference_bounds": [
+            -0.002,
+            -0.002
+          ],
+          "confidence_interval": [
+            -0.026216833852691246,
+            0.022155888891508022
+          ],
+          "lower_gt_minus_003": true,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 259,
+            "hard": 523,
+            "medium": 218
+          }
+        },
+        "unstratified_cp_known_only": {
+          "n": 1000,
+          "confidence_interval": [
+            -0.01224125737817782,
+            0.008351061936791927
+          ],
+          "lower_gt_minus_003": true
+        },
+        "sensitivity": {
+          "unknown_zero_cp": {
+            "n": 1000,
+            "confidence_interval": [
+              -0.026216833852691246,
+              0.022155888891508022
+            ],
+            "lower_gt_minus_003": true,
+            "policy": "unknown_zero"
+          },
+          "unknown_zero_newcombe10": {
+            "n": 1000,
+            "policy": "zero",
+            "table": {
+              "both_correct": 982,
+              "a_only": 3,
+              "b_only": 5,
+              "neither_correct": 10
+            },
+            "difference": -0.002,
+            "newcombe10_95": [
+              -0.00916184885767472,
+              0.004723511358372041
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.7265625
+          },
+          "known_labels_newcombe10": {
+            "n": 1000,
+            "policy": "known",
+            "table": {
+              "both_correct": 982,
+              "a_only": 3,
+              "b_only": 5,
+              "neither_correct": 10
+            },
+            "difference": -0.002,
+            "newcombe10_95": [
+              -0.00916184885767472,
+              0.004723511358372041
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 0.7265625
+          },
+          "complete_execution_cp": {
+            "n": 998,
+            "difference_bounds": [
+              0.0,
+              0.0
+            ],
+            "confidence_interval": [
+              -0.022282045424527733,
+              0.02229456202535041
+            ],
+            "lower_gt_minus_003": true,
+            "unknown_pairs": 0,
+            "strata": {
+              "easy": 259,
+              "hard": 521,
+              "medium": 218
+            }
+          },
+          "complete_execution_known_newcombe10": {
+            "n": 998,
+            "policy": "known",
+            "table": {
+              "both_correct": 982,
+              "a_only": 3,
+              "b_only": 3,
+              "neither_correct": 10
+            },
+            "difference": 0.0,
+            "newcombe10_95": [
+              -0.006390703664450227,
+              0.006390703664450227
+            ],
+            "post_test_lower_gt_minus_003": true,
+            "mcnemar_exact_zero_difference_p": 1.0
+          }
+        },
+        "denominators": {
+          "planned_pairs": 1000,
+          "started_pairs": 1000,
+          "known_pairs": 1000,
+          "started_but_unknown_pairs": 0
+        },
+        "resources": {
+          "total_tokens": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": 183.016,
+            "cluster_bootstrap_95": [
+              59.0432,
+              296.2751999999999
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          },
+          "n_calls": {
+            "n_pairs": 1000,
+            "coverage": 1.0,
+            "observed_mean_adaptive_minus_plan_reflect": -0.341,
+            "cluster_bootstrap_95": [
+              -0.400025,
+              -0.2829750000000001
+            ],
+            "draws": 2000,
+            "seed": 20261020,
+            "note": "差值单位与 meter_summary 一致；缺失记录不插补。"
+          }
+        }
+      }
+    },
+    "repeat_consistency": {
+      "gsm8k": {
+        "source": "gsm8k",
+        "n_tasks_in_subset": 300,
+        "per_repeat_counts": {
+          "0": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 297,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 296,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "1": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 298,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 295,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "2": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 297,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 296,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          }
+        },
+        "within_task_consistency": {
+          "adaptive": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.9933333333333333,
+            "conditional_on_three_known": true
+          },
+          "plan_reflect": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.99,
+            "conditional_on_three_known": true
+          }
+        },
+        "clustered_task_level_difference": {
+          "n_tasks": 300,
+          "difference_bounds": [
+            0.005555555555555555,
+            0.005555555555555555
+          ],
+          "cluster_bootstrap_outer95": [
+            -0.0011111111111111111,
+            0.013333333333333334
+          ],
+          "draws": 2000,
+          "seed": 20261020
+        },
+        "note": "Fixed 300 tasks per source; errors remain zero; all missing/unknown repeats retain bounds."
+      },
+      "math": {
+        "source": "math",
+        "n_tasks_in_subset": 300,
+        "per_repeat_counts": {
+          "0": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 294,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 2,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 297,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 0
+          },
+          "1": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 295,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 295,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 2
+          },
+          "2": {
+            "adaptive_planned": 300,
+            "adaptive_correct": 296,
+            "adaptive_known_including_errors": 300,
+            "adaptive_unknown_or_missing": 0,
+            "adaptive_execution_failures": 0,
+            "plan_reflect_planned": 300,
+            "plan_reflect_correct": 297,
+            "plan_reflect_known_including_errors": 300,
+            "plan_reflect_unknown_or_missing": 0,
+            "plan_reflect_execution_failures": 1
+          }
+        },
+        "within_task_consistency": {
+          "adaptive": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.9833333333333333,
+            "conditional_on_three_known": true
+          },
+          "plan_reflect": {
+            "tasks_with_three_known_repeats": 300,
+            "identical_outcome_rate": 0.9866666666666667,
+            "conditional_on_three_known": true
+          }
+        },
+        "clustered_task_level_difference": {
+          "n_tasks": 300,
+          "difference_bounds": [
+            -0.0044444444444444444,
+            -0.0044444444444444444
+          ],
+          "cluster_bootstrap_outer95": [
+            -0.01111111111111111,
+            0.0011111111111111111
+          ],
+          "draws": 2000,
+          "seed": 20261020
+        },
+        "note": "Fixed 300 tasks per source; errors remain zero; all missing/unknown repeats retain bounds."
+      }
+    },
+    "all_sources_pooled": {
+      "role": "descriptive_only_not_for_primary_claim",
+      "n_pairs": 2000,
+      "stratified_cp": {
+        "n": 2000,
+        "difference_bounds": [
+          0.0,
+          0.001
+        ],
+        "confidence_interval": [
+          -0.01530604306456217,
+          0.01628150183977532
+        ],
+        "lower_gt_minus_003": true,
+        "unknown_pairs": 1,
+        "strata": {
+          "easy": 613,
+          "hard": 689,
+          "medium": 698
+        }
+      },
+      "known_labels_newcombe10": {
+        "n": 1999,
+        "policy": "known",
+        "table": {
+          "both_correct": 1963,
+          "a_only": 8,
+          "b_only": 7,
+          "neither_correct": 21
+        },
+        "difference": 0.0005002501250625312,
+        "newcombe10_95": [
+          -0.0038060212370249783,
+          0.004870829688565786
+        ],
+        "post_test_lower_gt_minus_003": true,
+        "mcnemar_exact_zero_difference_p": 1.0
+      },
+      "unknown_zero_newcombe10": {
+        "n": 2000,
+        "policy": "zero",
+        "table": {
+          "both_correct": 1963,
+          "a_only": 8,
+          "b_only": 7,
+          "neither_correct": 22
+        },
+        "difference": 0.0005,
+        "newcombe10_95": [
+          -0.0038037193728909556,
+          0.004867183957132287
+        ],
+        "post_test_lower_gt_minus_003": true,
+        "mcnemar_exact_zero_difference_p": 1.0
+      }
+    },
+    "per_repeat_paired_cp": {
+      "gsm8k": {
+        "1": {
+          "n": 300,
+          "difference_bounds": [
+            0.01,
+            0.01
+          ],
+          "confidence_interval": [
+            -0.05270244735962433,
+            0.07206497913662935
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 106,
+            "hard": 50,
+            "medium": 144
+          }
+        },
+        "2": {
+          "n": 300,
+          "difference_bounds": [
+            0.0033333333333333335,
+            0.0033333333333333335
+          ],
+          "confidence_interval": [
+            -0.05958518987476239,
+            0.0650996373164563
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 106,
+            "hard": 50,
+            "medium": 144
+          }
+        }
+      },
+      "math": {
+        "1": {
+          "n": 300,
+          "difference_bounds": [
+            0.0,
+            0.0
+          ],
+          "confidence_interval": [
+            -0.0667330002658317,
+            0.06681587052458425
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 78,
+            "hard": 157,
+            "medium": 65
+          }
+        },
+        "2": {
+          "n": 300,
+          "difference_bounds": [
+            -0.0033333333333333335,
+            -0.0033333333333333335
+          ],
+          "confidence_interval": [
+            -0.0668297879822768,
+            0.06005795216385504
+          ],
+          "lower_gt_minus_003": false,
+          "unknown_pairs": 0,
+          "strata": {
+            "easy": 78,
+            "hard": 157,
+            "medium": 65
+          }
+        }
+      }
+    },
+    "label_counts_by_phase_source_strategy": {
+      "main/gsm8k/adaptive": {
+        "n": 1000,
+        "correct": 986,
+        "incorrect": 13,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.986,
+          0.987
+        ]
+      },
+      "main/gsm8k/plan_reflect": {
+        "n": 1000,
+        "correct": 983,
+        "incorrect": 16,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.983,
+          0.984
+        ]
+      },
+      "main/math/adaptive": {
+        "n": 1000,
+        "correct": 985,
+        "incorrect": 15,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.985,
+          0.985
+        ]
+      },
+      "main/math/plan_reflect": {
+        "n": 1000,
+        "correct": 987,
+        "incorrect": 13,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.987,
+          0.987
+        ]
+      },
+      "matched_repeat/gsm8k/adaptive": {
+        "n": 600,
+        "correct": 595,
+        "incorrect": 5,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9916666666666667,
+          0.9916666666666667
+        ]
+      },
+      "matched_repeat/gsm8k/plan_reflect": {
+        "n": 600,
+        "correct": 591,
+        "incorrect": 9,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.985,
+          0.985
+        ]
+      },
+      "matched_repeat/math/adaptive": {
+        "n": 600,
+        "correct": 591,
+        "incorrect": 9,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.985,
+          0.985
+        ]
+      },
+      "matched_repeat/math/plan_reflect": {
+        "n": 600,
+        "correct": 592,
+        "incorrect": 8,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9866666666666667,
+          0.9866666666666667
+        ]
+      }
+    },
+    "all_labels": {
+      "1": 6310,
+      "0": 88,
+      "None": 2
+    }
+  }
+}

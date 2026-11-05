@@ -1,0 +1,35 @@
+{
+  "version": "20261105.audit.1",
+  "paired_materials": 1216,
+  "author_adjudications": 87,
+  "paired_source_sha256": "9737a197ee2e773724d156661727fa75b629191615e7099534371e3d2f3dd841",
+  "adjudication_source_sha256": "e763b733531ac08bd305cfe9429cbd8b73d4a848f90e0a8902482b8c9b910708",
+  "linkage": "Exact source_part, task_id, answer_sha256 and review_id; answer hash uses the original untrimmed UTF-8 final answer.",
+  "transformation": "Remove benchmark problem text, model answer text, rater rationale prose, names, contacts and identity/order maps; preserve label facts, quality flags, dates, exact linkage and author adjudication text.",
+  "ai_and_consent_provenance": {
+    "author_adjudicator": "Author",
+    "original_declarations": {
+      "A": [
+        false,
+        false,
+        false
+      ],
+      "B": [
+        true,
+        true,
+        true
+      ]
+    },
+    "A_clarification": "Author reports rater personally checked conclusions; AI assisted the wording of reasons.",
+    "B_clarification": "Author reports rater first made human judgments, then used AI for checking and clarification of some materials; conclusions reportedly unchanged.",
+    "confirmation_source": "Author-reported clarifications; no new independently signed declarations inferred.",
+    "AI_tools_models_versions": "Not supplied by raters.",
+    "consent": "Author reports both raters knew judgments would be used in the paper and agreed to de-identified sharing.",
+    "checksum_history": "Original B return had four mismatched items in a five-item old manifest; originals retained privately and new receipt hashes calculated. No original declaration booleans changed.",
+    "qualification_record": "No formal rater-qualification inclusion standard documented.",
+    "identity_and_order_mappings_included": false,
+    "raw_return_archives_included": false,
+    "transformations": "See source hashes above; no private identity mappings included."
+  },
+  "licence": "GPL-3.0-only; copyrightable author-owned compilation and adjudication text only; no new restriction asserted on facts."
+}

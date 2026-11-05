@@ -1,0 +1,121 @@
+{
+  "parts": [
+    {
+      "n": 300,
+      "agree": 292,
+      "disagree": 8,
+      "agreement": 0.9733333333333334,
+      "kappa": 0.9317347896578206,
+      "matrix": [
+        [
+          224,
+          0,
+          2
+        ],
+        [
+          0,
+          51,
+          0
+        ],
+        [
+          5,
+          1,
+          17
+        ]
+      ],
+      "task_clusters": 267,
+      "bootstrap_draws": 2000,
+      "seed": 20261020,
+      "task_order": "sorted exact task IDs",
+      "agreement_task_cluster_bootstrap95": [
+        0.9507042253521126,
+        0.9902912621359223
+      ],
+      "kappa_task_cluster_bootstrap95": [
+        0.8755995788324299,
+        0.9764762361977917
+      ],
+      "defined_kappa_draws": 2000,
+      "interval_role": "Descriptive task-cluster percentile interval; not a population error rate or a noninferiority test.",
+      "part": "primary_audit_300"
+    },
+    {
+      "n": 616,
+      "agree": 615,
+      "disagree": 1,
+      "agreement": 0.9983766233766234,
+      "kappa": 0.9963916680334591,
+      "matrix": [
+        [
+          405,
+          1,
+          0
+        ],
+        [
+          0,
+          210,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "task_clusters": 210,
+      "bootstrap_draws": 2000,
+      "seed": 20261105,
+      "task_order": "sorted exact task IDs",
+      "agreement_task_cluster_bootstrap95": [
+        0.9948096885813149,
+        1.0
+      ],
+      "kappa_task_cluster_bootstrap95": [
+        0.9881783644968907,
+        1.0
+      ],
+      "defined_kappa_draws": 2000,
+      "interval_role": "Descriptive task-cluster percentile interval; not a population error rate or a noninferiority test.",
+      "part": "remaining_unknown"
+    },
+    {
+      "n": 300,
+      "agree": 291,
+      "disagree": 9,
+      "agreement": 0.97,
+      "kappa": 0.8075689544579859,
+      "matrix": [
+        [
+          272,
+          0,
+          1
+        ],
+        [
+          0,
+          6,
+          0
+        ],
+        [
+          5,
+          3,
+          13
+        ]
+      ],
+      "task_clusters": 260,
+      "bootstrap_draws": 2000,
+      "seed": 20261021,
+      "task_order": "sorted exact task IDs",
+      "agreement_task_cluster_bootstrap95": [
+        0.9473684210526315,
+        0.9897260273972602
+      ],
+      "kappa_task_cluster_bootstrap95": [
+        0.6614858563879391,
+        0.9202565174961662
+      ],
+      "defined_kappa_draws": 2000,
+      "interval_role": "Descriptive task-cluster percentile interval; not a population error rate or a noninferiority test.",
+      "part": "followup_audit_300"
+    }
+  ]
+}

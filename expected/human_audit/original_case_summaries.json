@@ -1,0 +1,7130 @@
+{
+  "formal_gsm8k_primary_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 674,
+        "incorrect": 326,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.674,
+          0.674
+        ],
+        "execution_errors": 294,
+        "empty_answers": 295,
+        "mean_recorded_attempts": 2.492,
+        "stops": {
+          "direct_single_shot": 157,
+          "reflection_verdict_pass": 114,
+          "planned_single_shot": 433,
+          "run_error": 294,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 157,
+          "hard": 116,
+          "medium": 433,
+          "None": 294
+        },
+        "route_methods": {
+          "rule_low": 99,
+          "rule_high": 49,
+          "judge": 549,
+          "None": 294,
+          "rule_fallback": 9
+        },
+        "known_usage_tokens": 1121855,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 302
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 669,
+        "incorrect": 331,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.669,
+          0.669
+        ],
+        "execution_errors": 274,
+        "empty_answers": 274,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 726,
+          "run_error": 274
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 241311,
+        "successful_usage_records": 726,
+        "records_with_missing_billing": 274
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 673,
+        "incorrect": 327,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.673,
+          0.673
+        ],
+        "execution_errors": 303,
+        "empty_answers": 303,
+        "mean_recorded_attempts": 2.527,
+        "stops": {
+          "reflection_verdict_pass": 670,
+          "fixed_rounds:2": 26,
+          "run_error": 303,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1028657,
+        "successful_usage_records": 2224,
+        "records_with_missing_billing": 303
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 667,
+        "incorrect": 332,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.667,
+          0.668
+        ],
+        "execution_errors": 297,
+        "empty_answers": 297,
+        "mean_recorded_attempts": 1.724,
+        "stops": {
+          "planned_single_shot": 703,
+          "run_error": 297
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 581067,
+        "successful_usage_records": 1427,
+        "records_with_missing_billing": 297
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 640,
+        "incorrect": 360,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.64,
+          0.64
+        ],
+        "execution_errors": 313,
+        "empty_answers": 313,
+        "mean_recorded_attempts": 2.419,
+        "stops": {
+          "None": 687,
+          "run_error": 313
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 734370,
+        "successful_usage_records": 2106,
+        "records_with_missing_billing": 313
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 675,
+        "incorrect": 325,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.675,
+          0.675
+        ],
+        "execution_errors": 294,
+        "empty_answers": 295,
+        "mean_recorded_attempts": 2.492,
+        "stops": {
+          "direct_single_shot": 157,
+          "reflection_verdict_pass": 114,
+          "planned_single_shot": 433,
+          "run_error": 294,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 157,
+          "hard": 116,
+          "medium": 433,
+          "None": 294
+        },
+        "route_methods": {
+          "rule_low": 99,
+          "rule_high": 49,
+          "judge": 549,
+          "None": 294,
+          "rule_fallback": 9
+        },
+        "known_usage_tokens": 1121855,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 302
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 671,
+        "incorrect": 329,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.671,
+          0.671
+        ],
+        "execution_errors": 274,
+        "empty_answers": 274,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 726,
+          "run_error": 274
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 241311,
+        "successful_usage_records": 726,
+        "records_with_missing_billing": 274
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 675,
+        "incorrect": 325,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.675,
+          0.675
+        ],
+        "execution_errors": 303,
+        "empty_answers": 303,
+        "mean_recorded_attempts": 2.527,
+        "stops": {
+          "reflection_verdict_pass": 670,
+          "fixed_rounds:2": 26,
+          "run_error": 303,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1028657,
+        "successful_usage_records": 2224,
+        "records_with_missing_billing": 303
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 668,
+        "incorrect": 332,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.668,
+          0.668
+        ],
+        "execution_errors": 297,
+        "empty_answers": 297,
+        "mean_recorded_attempts": 1.724,
+        "stops": {
+          "planned_single_shot": 703,
+          "run_error": 297
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 581067,
+        "successful_usage_records": 1427,
+        "records_with_missing_billing": 297
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 641,
+        "incorrect": 359,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.641,
+          0.641
+        ],
+        "execution_errors": 313,
+        "empty_answers": 313,
+        "mean_recorded_attempts": 2.419,
+        "stops": {
+          "None": 687,
+          "run_error": 313
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 734370,
+        "successful_usage_records": 2106,
+        "records_with_missing_billing": 313
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 681,
+        "incorrect": 319,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.681,
+          0.681
+        ],
+        "execution_errors": 294,
+        "empty_answers": 295,
+        "mean_recorded_attempts": 2.492,
+        "stops": {
+          "direct_single_shot": 157,
+          "reflection_verdict_pass": 114,
+          "planned_single_shot": 433,
+          "run_error": 294,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 157,
+          "hard": 116,
+          "medium": 433,
+          "None": 294
+        },
+        "route_methods": {
+          "rule_low": 99,
+          "rule_high": 49,
+          "judge": 549,
+          "None": 294,
+          "rule_fallback": 9
+        },
+        "known_usage_tokens": 1121855,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 302
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 671,
+        "incorrect": 329,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.671,
+          0.671
+        ],
+        "execution_errors": 274,
+        "empty_answers": 274,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 726,
+          "run_error": 274
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 241311,
+        "successful_usage_records": 726,
+        "records_with_missing_billing": 274
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 685,
+        "incorrect": 315,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.685,
+          0.685
+        ],
+        "execution_errors": 303,
+        "empty_answers": 303,
+        "mean_recorded_attempts": 2.527,
+        "stops": {
+          "reflection_verdict_pass": 670,
+          "fixed_rounds:2": 26,
+          "run_error": 303,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1028657,
+        "successful_usage_records": 2224,
+        "records_with_missing_billing": 303
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 668,
+        "incorrect": 332,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.668,
+          0.668
+        ],
+        "execution_errors": 297,
+        "empty_answers": 297,
+        "mean_recorded_attempts": 1.724,
+        "stops": {
+          "planned_single_shot": 703,
+          "run_error": 297
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 581067,
+        "successful_usage_records": 1427,
+        "records_with_missing_billing": 297
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 641,
+        "incorrect": 359,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.641,
+          0.641
+        ],
+        "execution_errors": 313,
+        "empty_answers": 313,
+        "mean_recorded_attempts": 2.419,
+        "stops": {
+          "None": 687,
+          "run_error": 313
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 734370,
+        "successful_usage_records": 2106,
+        "records_with_missing_billing": 313
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 681,
+        "incorrect": 319,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.681,
+          0.681
+        ],
+        "execution_errors": 294,
+        "empty_answers": 295,
+        "mean_recorded_attempts": 2.492,
+        "stops": {
+          "direct_single_shot": 157,
+          "reflection_verdict_pass": 114,
+          "planned_single_shot": 433,
+          "run_error": 294,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 157,
+          "hard": 116,
+          "medium": 433,
+          "None": 294
+        },
+        "route_methods": {
+          "rule_low": 99,
+          "rule_high": 49,
+          "judge": 549,
+          "None": 294,
+          "rule_fallback": 9
+        },
+        "known_usage_tokens": 1121855,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 302
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 671,
+        "incorrect": 329,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.671,
+          0.671
+        ],
+        "execution_errors": 274,
+        "empty_answers": 274,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 726,
+          "run_error": 274
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 241311,
+        "successful_usage_records": 726,
+        "records_with_missing_billing": 274
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 685,
+        "incorrect": 315,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.685,
+          0.685
+        ],
+        "execution_errors": 303,
+        "empty_answers": 303,
+        "mean_recorded_attempts": 2.527,
+        "stops": {
+          "reflection_verdict_pass": 670,
+          "fixed_rounds:2": 26,
+          "run_error": 303,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1028657,
+        "successful_usage_records": 2224,
+        "records_with_missing_billing": 303
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 668,
+        "incorrect": 332,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.668,
+          0.668
+        ],
+        "execution_errors": 297,
+        "empty_answers": 297,
+        "mean_recorded_attempts": 1.724,
+        "stops": {
+          "planned_single_shot": 703,
+          "run_error": 297
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 581067,
+        "successful_usage_records": 1427,
+        "records_with_missing_billing": 297
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 641,
+        "incorrect": 359,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.641,
+          0.641
+        ],
+        "execution_errors": 313,
+        "empty_answers": 313,
+        "mean_recorded_attempts": 2.419,
+        "stops": {
+          "None": 687,
+          "run_error": 313
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 734370,
+        "successful_usage_records": 2106,
+        "records_with_missing_billing": 313
+      }
+    }
+  },
+  "formal_gsm8k_budget2_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 277,
+        "incorrect": 723,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.277,
+          0.277
+        ],
+        "execution_errors": 1,
+        "empty_answers": 706,
+        "mean_recorded_attempts": 1.853,
+        "stops": {
+          "direct_single_shot": 226,
+          "hard_cap:calls": 773,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 226,
+          "medium": 632,
+          "hard": 141,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 777,
+          "rule_high": 68,
+          "rule_fallback": 7,
+          "None": 1
+        },
+        "known_usage_tokens": 1121313,
+        "successful_usage_records": 1852,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 899,
+        "incorrect": 100,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.899,
+          0.9
+        ],
+        "execution_errors": 0,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "None": 1000
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 697900,
+        "successful_usage_records": 2000,
+        "records_with_missing_billing": 0
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 278,
+        "incorrect": 722,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.278,
+          0.278
+        ],
+        "execution_errors": 1,
+        "empty_answers": 706,
+        "mean_recorded_attempts": 1.853,
+        "stops": {
+          "direct_single_shot": 226,
+          "hard_cap:calls": 773,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 226,
+          "medium": 632,
+          "hard": 141,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 777,
+          "rule_high": 68,
+          "rule_fallback": 7,
+          "None": 1
+        },
+        "known_usage_tokens": 1121313,
+        "successful_usage_records": 1852,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 900,
+        "incorrect": 100,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9,
+          0.9
+        ],
+        "execution_errors": 0,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "None": 1000
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 697900,
+        "successful_usage_records": 2000,
+        "records_with_missing_billing": 0
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 278,
+        "incorrect": 722,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.278,
+          0.278
+        ],
+        "execution_errors": 1,
+        "empty_answers": 706,
+        "mean_recorded_attempts": 1.853,
+        "stops": {
+          "direct_single_shot": 226,
+          "hard_cap:calls": 773,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 226,
+          "medium": 632,
+          "hard": 141,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 777,
+          "rule_high": 68,
+          "rule_fallback": 7,
+          "None": 1
+        },
+        "known_usage_tokens": 1121313,
+        "successful_usage_records": 1852,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 900,
+        "incorrect": 100,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9,
+          0.9
+        ],
+        "execution_errors": 0,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "None": 1000
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 697900,
+        "successful_usage_records": 2000,
+        "records_with_missing_billing": 0
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 278,
+        "incorrect": 722,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.278,
+          0.278
+        ],
+        "execution_errors": 1,
+        "empty_answers": 706,
+        "mean_recorded_attempts": 1.853,
+        "stops": {
+          "direct_single_shot": 226,
+          "hard_cap:calls": 773,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 226,
+          "medium": 632,
+          "hard": 141,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 777,
+          "rule_high": 68,
+          "rule_fallback": 7,
+          "None": 1
+        },
+        "known_usage_tokens": 1121313,
+        "successful_usage_records": 1852,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 900,
+        "incorrect": 100,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9,
+          0.9
+        ],
+        "execution_errors": 0,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "None": 1000
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 697900,
+        "successful_usage_records": 2000,
+        "records_with_missing_billing": 0
+      }
+    }
+  },
+  "formal_gsm8k_budget3_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 2,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.618,
+        "stops": {
+          "direct_single_shot": 235,
+          "planned_single_shot": 609,
+          "hard_cap:calls": 154,
+          "run_error": 2
+        },
+        "levels": {
+          "easy": 235,
+          "medium": 609,
+          "hard": 154,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 773,
+          "rule_high": 68,
+          "rule_fallback": 10,
+          "None": 2
+        },
+        "known_usage_tokens": 1555235,
+        "successful_usage_records": 2613,
+        "records_with_missing_billing": 5
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 945,
+        "incorrect": 54,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.945,
+          0.946
+        ],
+        "execution_errors": 3,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 2.999,
+        "stops": {
+          "None": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1085136,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 3
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 950,
+        "incorrect": 50,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.95,
+          0.95
+        ],
+        "execution_errors": 2,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.618,
+        "stops": {
+          "direct_single_shot": 235,
+          "planned_single_shot": 609,
+          "hard_cap:calls": 154,
+          "run_error": 2
+        },
+        "levels": {
+          "easy": 235,
+          "medium": 609,
+          "hard": 154,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 773,
+          "rule_high": 68,
+          "rule_fallback": 10,
+          "None": 2
+        },
+        "known_usage_tokens": 1555235,
+        "successful_usage_records": 2613,
+        "records_with_missing_billing": 5
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 946,
+        "incorrect": 53,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.946,
+          0.947
+        ],
+        "execution_errors": 3,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 2.999,
+        "stops": {
+          "None": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1085136,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 3
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 950,
+        "incorrect": 50,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.95,
+          0.95
+        ],
+        "execution_errors": 2,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.618,
+        "stops": {
+          "direct_single_shot": 235,
+          "planned_single_shot": 609,
+          "hard_cap:calls": 154,
+          "run_error": 2
+        },
+        "levels": {
+          "easy": 235,
+          "medium": 609,
+          "hard": 154,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 773,
+          "rule_high": 68,
+          "rule_fallback": 10,
+          "None": 2
+        },
+        "known_usage_tokens": 1555235,
+        "successful_usage_records": 2613,
+        "records_with_missing_billing": 5
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 947,
+        "incorrect": 53,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.947,
+          0.947
+        ],
+        "execution_errors": 3,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 2.999,
+        "stops": {
+          "None": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1085136,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 3
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 950,
+        "incorrect": 50,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.95,
+          0.95
+        ],
+        "execution_errors": 2,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 2.618,
+        "stops": {
+          "direct_single_shot": 235,
+          "planned_single_shot": 609,
+          "hard_cap:calls": 154,
+          "run_error": 2
+        },
+        "levels": {
+          "easy": 235,
+          "medium": 609,
+          "hard": 154,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "judge": 773,
+          "rule_high": 68,
+          "rule_fallback": 10,
+          "None": 2
+        },
+        "known_usage_tokens": 1555235,
+        "successful_usage_records": 2613,
+        "records_with_missing_billing": 5
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 947,
+        "incorrect": 53,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.947,
+          0.947
+        ],
+        "execution_errors": 3,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 2.999,
+        "stops": {
+          "None": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1085136,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 3
+      }
+    }
+  },
+  "formal_gsm8k_budget4_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 955,
+        "incorrect": 45,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.955,
+          0.955
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 2.785,
+        "stops": {
+          "direct_single_shot": 215,
+          "reflection_verdict_pass": 64,
+          "planned_single_shot": 559,
+          "run_error": 11,
+          "hard_cap:calls": 151
+        },
+        "levels": {
+          "easy": 215,
+          "hard": 215,
+          "medium": 559,
+          "None": 11
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "rule_high": 66,
+          "judge": 770,
+          "None": 11,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 2057219,
+        "successful_usage_records": 2769,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 948,
+        "incorrect": 52,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.948,
+          0.948
+        ],
+        "execution_errors": 22,
+        "empty_answers": 22,
+        "mean_recorded_attempts": 3.961,
+        "stops": {
+          "None": 978,
+          "run_error": 22
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1521826,
+        "successful_usage_records": 3939,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 955,
+        "incorrect": 45,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.955,
+          0.955
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 2.785,
+        "stops": {
+          "direct_single_shot": 215,
+          "reflection_verdict_pass": 64,
+          "planned_single_shot": 559,
+          "run_error": 11,
+          "hard_cap:calls": 151
+        },
+        "levels": {
+          "easy": 215,
+          "hard": 215,
+          "medium": 559,
+          "None": 11
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "rule_high": 66,
+          "judge": 770,
+          "None": 11,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 2057219,
+        "successful_usage_records": 2769,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 22,
+        "empty_answers": 22,
+        "mean_recorded_attempts": 3.961,
+        "stops": {
+          "None": 978,
+          "run_error": 22
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1521826,
+        "successful_usage_records": 3939,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 955,
+        "incorrect": 45,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.955,
+          0.955
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 2.785,
+        "stops": {
+          "direct_single_shot": 215,
+          "reflection_verdict_pass": 64,
+          "planned_single_shot": 559,
+          "run_error": 11,
+          "hard_cap:calls": 151
+        },
+        "levels": {
+          "easy": 215,
+          "hard": 215,
+          "medium": 559,
+          "None": 11
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "rule_high": 66,
+          "judge": 770,
+          "None": 11,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 2057219,
+        "successful_usage_records": 2769,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 22,
+        "empty_answers": 22,
+        "mean_recorded_attempts": 3.961,
+        "stops": {
+          "None": 978,
+          "run_error": 22
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1521826,
+        "successful_usage_records": 3939,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 955,
+        "incorrect": 45,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.955,
+          0.955
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 2.785,
+        "stops": {
+          "direct_single_shot": 215,
+          "reflection_verdict_pass": 64,
+          "planned_single_shot": 559,
+          "run_error": 11,
+          "hard_cap:calls": 151
+        },
+        "levels": {
+          "easy": 215,
+          "hard": 215,
+          "medium": 559,
+          "None": 11
+        },
+        "route_methods": {
+          "rule_low": 147,
+          "rule_high": 66,
+          "judge": 770,
+          "None": 11,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 2057219,
+        "successful_usage_records": 2769,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 22,
+        "empty_answers": 22,
+        "mean_recorded_attempts": 3.961,
+        "stops": {
+          "None": 978,
+          "run_error": 22
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1521826,
+        "successful_usage_records": 3939,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_repeats_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 300,
+        "correct": 238,
+        "incorrect": 62,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7933333333333333,
+          0.7933333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.5833333333333335,
+        "stops": {
+          "direct_single_shot": 103,
+          "planned_single_shot": 178,
+          "reflection_verdict_pass": 17,
+          "verdict_malformed": 1,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 103,
+          "medium": 178,
+          "hard": 19
+        },
+        "route_methods": {
+          "rule_low": 54,
+          "judge": 234,
+          "rule_high": 12
+        },
+        "known_usage_tokens": 309749,
+        "successful_usage_records": 775,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 201,
+        "incorrect": 99,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.67,
+          0.67
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 63906,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 292,
+        "incorrect": 8,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9733333333333334,
+          0.9733333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.65,
+        "stops": {
+          "reflection_verdict_pass": 235,
+          "fixed_rounds:2": 65
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 404816,
+        "successful_usage_records": 1095,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 244,
+        "incorrect": 56,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.8133333333333334,
+          0.8133333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 175619,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 215,
+        "incorrect": 85,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7166666666666667,
+          0.7166666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 191584,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 300,
+        "correct": 238,
+        "incorrect": 62,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7933333333333333,
+          0.7933333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.5833333333333335,
+        "stops": {
+          "direct_single_shot": 103,
+          "planned_single_shot": 178,
+          "reflection_verdict_pass": 17,
+          "verdict_malformed": 1,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 103,
+          "medium": 178,
+          "hard": 19
+        },
+        "route_methods": {
+          "rule_low": 54,
+          "judge": 234,
+          "rule_high": 12
+        },
+        "known_usage_tokens": 309749,
+        "successful_usage_records": 775,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 201,
+        "incorrect": 99,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.67,
+          0.67
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 63906,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 292,
+        "incorrect": 8,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9733333333333334,
+          0.9733333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.65,
+        "stops": {
+          "reflection_verdict_pass": 235,
+          "fixed_rounds:2": 65
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 404816,
+        "successful_usage_records": 1095,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 244,
+        "incorrect": 56,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.8133333333333334,
+          0.8133333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 175619,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 215,
+        "incorrect": 85,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7166666666666667,
+          0.7166666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 191584,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 300,
+        "correct": 238,
+        "incorrect": 62,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7933333333333333,
+          0.7933333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.5833333333333335,
+        "stops": {
+          "direct_single_shot": 103,
+          "planned_single_shot": 178,
+          "reflection_verdict_pass": 17,
+          "verdict_malformed": 1,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 103,
+          "medium": 178,
+          "hard": 19
+        },
+        "route_methods": {
+          "rule_low": 54,
+          "judge": 234,
+          "rule_high": 12
+        },
+        "known_usage_tokens": 309749,
+        "successful_usage_records": 775,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 201,
+        "incorrect": 99,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.67,
+          0.67
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 63906,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 292,
+        "incorrect": 8,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9733333333333334,
+          0.9733333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.65,
+        "stops": {
+          "reflection_verdict_pass": 235,
+          "fixed_rounds:2": 65
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 404816,
+        "successful_usage_records": 1095,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 244,
+        "incorrect": 56,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.8133333333333334,
+          0.8133333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 175619,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 215,
+        "incorrect": 85,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7166666666666667,
+          0.7166666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 191584,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 300,
+        "correct": 238,
+        "incorrect": 62,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7933333333333333,
+          0.7933333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.5833333333333335,
+        "stops": {
+          "direct_single_shot": 103,
+          "planned_single_shot": 178,
+          "reflection_verdict_pass": 17,
+          "verdict_malformed": 1,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 103,
+          "medium": 178,
+          "hard": 19
+        },
+        "route_methods": {
+          "rule_low": 54,
+          "judge": 234,
+          "rule_high": 12
+        },
+        "known_usage_tokens": 309749,
+        "successful_usage_records": 775,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 201,
+        "incorrect": 99,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.67,
+          0.67
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 63906,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 292,
+        "incorrect": 8,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.9733333333333334,
+          0.9733333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.65,
+        "stops": {
+          "reflection_verdict_pass": 235,
+          "fixed_rounds:2": 65
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 404816,
+        "successful_usage_records": 1095,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 244,
+        "incorrect": 56,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.8133333333333334,
+          0.8133333333333334
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 175619,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 215,
+        "incorrect": 85,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.7166666666666667,
+          0.7166666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 191584,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    }
+  },
+  "formal_math_primary_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 835,
+        "incorrect": 110,
+        "unknown": 55,
+        "accuracy_bounds": [
+          0.835,
+          0.89
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 2.879,
+        "stops": {
+          "direct_single_shot": 273,
+          "planned_single_shot": 348,
+          "reflection_verdict_pass": 350,
+          "verdict_malformed": 14,
+          "run_error": 3,
+          "gain_below_delta:0.05": 1,
+          "hard_cap:calls": 11
+        },
+        "levels": {
+          "easy": 276,
+          "medium": 345,
+          "hard": 376,
+          "None": 3
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 563,
+          "rule_high": 219,
+          "None": 3,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2153326,
+        "successful_usage_records": 2873,
+        "records_with_missing_billing": 6
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 783,
+        "incorrect": 149,
+        "unknown": 68,
+        "accuracy_bounds": [
+          0.783,
+          0.851
+        ],
+        "execution_errors": 3,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 639394,
+        "successful_usage_records": 997,
+        "records_with_missing_billing": 3
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 844,
+        "incorrect": 87,
+        "unknown": 69,
+        "accuracy_bounds": [
+          0.844,
+          0.913
+        ],
+        "execution_errors": 7,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 3.345,
+        "stops": {
+          "reflection_verdict_pass": 860,
+          "run_error": 7,
+          "fixed_rounds:2": 117,
+          "verdict_malformed": 16
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2150922,
+        "successful_usage_records": 3338,
+        "records_with_missing_billing": 7
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 791,
+        "incorrect": 142,
+        "unknown": 67,
+        "accuracy_bounds": [
+          0.791,
+          0.858
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1083918,
+        "successful_usage_records": 1994,
+        "records_with_missing_billing": 3
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 844,
+        "incorrect": 101,
+        "unknown": 55,
+        "accuracy_bounds": [
+          0.844,
+          0.899
+        ],
+        "execution_errors": 5,
+        "empty_answers": 18,
+        "mean_recorded_attempts": 2.996,
+        "stops": {
+          "None": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1929710,
+        "successful_usage_records": 2991,
+        "records_with_missing_billing": 5
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 837,
+        "incorrect": 108,
+        "unknown": 55,
+        "accuracy_bounds": [
+          0.837,
+          0.892
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 2.879,
+        "stops": {
+          "direct_single_shot": 273,
+          "planned_single_shot": 348,
+          "reflection_verdict_pass": 350,
+          "verdict_malformed": 14,
+          "run_error": 3,
+          "gain_below_delta:0.05": 1,
+          "hard_cap:calls": 11
+        },
+        "levels": {
+          "easy": 276,
+          "medium": 345,
+          "hard": 376,
+          "None": 3
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 563,
+          "rule_high": 219,
+          "None": 3,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2153326,
+        "successful_usage_records": 2873,
+        "records_with_missing_billing": 6
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 785,
+        "incorrect": 147,
+        "unknown": 68,
+        "accuracy_bounds": [
+          0.785,
+          0.853
+        ],
+        "execution_errors": 3,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 639394,
+        "successful_usage_records": 997,
+        "records_with_missing_billing": 3
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 845,
+        "incorrect": 86,
+        "unknown": 69,
+        "accuracy_bounds": [
+          0.845,
+          0.914
+        ],
+        "execution_errors": 7,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 3.345,
+        "stops": {
+          "reflection_verdict_pass": 860,
+          "run_error": 7,
+          "fixed_rounds:2": 117,
+          "verdict_malformed": 16
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2150922,
+        "successful_usage_records": 3338,
+        "records_with_missing_billing": 7
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 794,
+        "incorrect": 139,
+        "unknown": 67,
+        "accuracy_bounds": [
+          0.794,
+          0.861
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1083918,
+        "successful_usage_records": 1994,
+        "records_with_missing_billing": 3
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 846,
+        "incorrect": 99,
+        "unknown": 55,
+        "accuracy_bounds": [
+          0.846,
+          0.901
+        ],
+        "execution_errors": 5,
+        "empty_answers": 18,
+        "mean_recorded_attempts": 2.996,
+        "stops": {
+          "None": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1929710,
+        "successful_usage_records": 2991,
+        "records_with_missing_billing": 5
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 895,
+        "incorrect": 103,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.895,
+          0.897
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 2.879,
+        "stops": {
+          "direct_single_shot": 273,
+          "planned_single_shot": 348,
+          "reflection_verdict_pass": 350,
+          "verdict_malformed": 14,
+          "run_error": 3,
+          "gain_below_delta:0.05": 1,
+          "hard_cap:calls": 11
+        },
+        "levels": {
+          "easy": 276,
+          "medium": 345,
+          "hard": 376,
+          "None": 3
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 563,
+          "rule_high": 219,
+          "None": 3,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2153326,
+        "successful_usage_records": 2873,
+        "records_with_missing_billing": 6
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 839,
+        "incorrect": 159,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.839,
+          0.841
+        ],
+        "execution_errors": 3,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 639394,
+        "successful_usage_records": 997,
+        "records_with_missing_billing": 3
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 918,
+        "incorrect": 80,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.918,
+          0.92
+        ],
+        "execution_errors": 7,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 3.345,
+        "stops": {
+          "reflection_verdict_pass": 860,
+          "run_error": 7,
+          "fixed_rounds:2": 117,
+          "verdict_malformed": 16
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2150922,
+        "successful_usage_records": 3338,
+        "records_with_missing_billing": 7
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 845,
+        "incorrect": 153,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.845,
+          0.847
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1083918,
+        "successful_usage_records": 1994,
+        "records_with_missing_billing": 3
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 895,
+        "incorrect": 103,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.895,
+          0.897
+        ],
+        "execution_errors": 5,
+        "empty_answers": 18,
+        "mean_recorded_attempts": 2.996,
+        "stops": {
+          "None": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1929710,
+        "successful_usage_records": 2991,
+        "records_with_missing_billing": 5
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 897,
+        "incorrect": 103,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.897,
+          0.897
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 2.879,
+        "stops": {
+          "direct_single_shot": 273,
+          "planned_single_shot": 348,
+          "reflection_verdict_pass": 350,
+          "verdict_malformed": 14,
+          "run_error": 3,
+          "gain_below_delta:0.05": 1,
+          "hard_cap:calls": 11
+        },
+        "levels": {
+          "easy": 276,
+          "medium": 345,
+          "hard": 376,
+          "None": 3
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 563,
+          "rule_high": 219,
+          "None": 3,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2153326,
+        "successful_usage_records": 2873,
+        "records_with_missing_billing": 6
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 841,
+        "incorrect": 159,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.841,
+          0.841
+        ],
+        "execution_errors": 3,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 639394,
+        "successful_usage_records": 997,
+        "records_with_missing_billing": 3
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 920,
+        "incorrect": 80,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.92,
+          0.92
+        ],
+        "execution_errors": 7,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 3.345,
+        "stops": {
+          "reflection_verdict_pass": 860,
+          "run_error": 7,
+          "fixed_rounds:2": 117,
+          "verdict_malformed": 16
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2150922,
+        "successful_usage_records": 3338,
+        "records_with_missing_billing": 7
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 847,
+        "incorrect": 153,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.847,
+          0.847
+        ],
+        "execution_errors": 3,
+        "empty_answers": 16,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 997,
+          "run_error": 3
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1083918,
+        "successful_usage_records": 1994,
+        "records_with_missing_billing": 3
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 897,
+        "incorrect": 103,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.897,
+          0.897
+        ],
+        "execution_errors": 5,
+        "empty_answers": 18,
+        "mean_recorded_attempts": 2.996,
+        "stops": {
+          "None": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1929710,
+        "successful_usage_records": 2991,
+        "records_with_missing_billing": 5
+      }
+    }
+  },
+  "formal_math_budget2_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 386,
+        "incorrect": 576,
+        "unknown": 38,
+        "accuracy_bounds": [
+          0.386,
+          0.424
+        ],
+        "execution_errors": 1,
+        "empty_answers": 507,
+        "mean_recorded_attempts": 1.79,
+        "stops": {
+          "direct_single_shot": 280,
+          "hard_cap:calls": 719,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 281,
+          "hard": 375,
+          "medium": 343,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "rule_high": 220,
+          "judge": 566,
+          "rule_fallback": 2,
+          "None": 1
+        },
+        "known_usage_tokens": 1136499,
+        "successful_usage_records": 1789,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 786,
+        "incorrect": 150,
+        "unknown": 64,
+        "accuracy_bounds": [
+          0.786,
+          0.85
+        ],
+        "execution_errors": 4,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1317279,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 4
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 387,
+        "incorrect": 575,
+        "unknown": 38,
+        "accuracy_bounds": [
+          0.387,
+          0.425
+        ],
+        "execution_errors": 1,
+        "empty_answers": 507,
+        "mean_recorded_attempts": 1.79,
+        "stops": {
+          "direct_single_shot": 280,
+          "hard_cap:calls": 719,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 281,
+          "hard": 375,
+          "medium": 343,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "rule_high": 220,
+          "judge": 566,
+          "rule_fallback": 2,
+          "None": 1
+        },
+        "known_usage_tokens": 1136499,
+        "successful_usage_records": 1789,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 788,
+        "incorrect": 148,
+        "unknown": 64,
+        "accuracy_bounds": [
+          0.788,
+          0.852
+        ],
+        "execution_errors": 4,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1317279,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 4
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 417,
+        "incorrect": 582,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.417,
+          0.418
+        ],
+        "execution_errors": 1,
+        "empty_answers": 507,
+        "mean_recorded_attempts": 1.79,
+        "stops": {
+          "direct_single_shot": 280,
+          "hard_cap:calls": 719,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 281,
+          "hard": 375,
+          "medium": 343,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "rule_high": 220,
+          "judge": 566,
+          "rule_fallback": 2,
+          "None": 1
+        },
+        "known_usage_tokens": 1136499,
+        "successful_usage_records": 1789,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 832,
+        "incorrect": 166,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.832,
+          0.834
+        ],
+        "execution_errors": 4,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1317279,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 4
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 418,
+        "incorrect": 582,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.418,
+          0.418
+        ],
+        "execution_errors": 1,
+        "empty_answers": 507,
+        "mean_recorded_attempts": 1.79,
+        "stops": {
+          "direct_single_shot": 280,
+          "hard_cap:calls": 719,
+          "run_error": 1
+        },
+        "levels": {
+          "easy": 281,
+          "hard": 375,
+          "medium": 343,
+          "None": 1
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "rule_high": 220,
+          "judge": 566,
+          "rule_fallback": 2,
+          "None": 1
+        },
+        "known_usage_tokens": 1136499,
+        "successful_usage_records": 1789,
+        "records_with_missing_billing": 1
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 834,
+        "incorrect": 166,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.834,
+          0.834
+        ],
+        "execution_errors": 4,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1317279,
+        "successful_usage_records": 1993,
+        "records_with_missing_billing": 4
+      }
+    }
+  },
+  "formal_math_budget3_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 684,
+        "incorrect": 260,
+        "unknown": 56,
+        "accuracy_bounds": [
+          0.684,
+          0.74
+        ],
+        "execution_errors": 228,
+        "empty_answers": 233,
+        "mean_recorded_attempts": 2.293,
+        "stops": {
+          "direct_single_shot": 225,
+          "planned_single_shot": 252,
+          "hard_cap:calls": 294,
+          "verdict_malformed": 1,
+          "run_error": 228
+        },
+        "levels": {
+          "easy": 225,
+          "medium": 252,
+          "hard": 295,
+          "None": 228
+        },
+        "route_methods": {
+          "rule_low": 171,
+          "judge": 424,
+          "rule_high": 172,
+          "rule_fallback": 5,
+          "None": 228
+        },
+        "known_usage_tokens": 1827674,
+        "successful_usage_records": 1928,
+        "records_with_missing_billing": 561
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 683,
+        "incorrect": 269,
+        "unknown": 48,
+        "accuracy_bounds": [
+          0.683,
+          0.731
+        ],
+        "execution_errors": 234,
+        "empty_answers": 240,
+        "mean_recorded_attempts": 2.543,
+        "stops": {
+          "None": 766,
+          "run_error": 234
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1556144,
+        "successful_usage_records": 2309,
+        "records_with_missing_billing": 562
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 685,
+        "incorrect": 259,
+        "unknown": 56,
+        "accuracy_bounds": [
+          0.685,
+          0.741
+        ],
+        "execution_errors": 228,
+        "empty_answers": 233,
+        "mean_recorded_attempts": 2.293,
+        "stops": {
+          "direct_single_shot": 225,
+          "planned_single_shot": 252,
+          "hard_cap:calls": 294,
+          "verdict_malformed": 1,
+          "run_error": 228
+        },
+        "levels": {
+          "easy": 225,
+          "medium": 252,
+          "hard": 295,
+          "None": 228
+        },
+        "route_methods": {
+          "rule_low": 171,
+          "judge": 424,
+          "rule_high": 172,
+          "rule_fallback": 5,
+          "None": 228
+        },
+        "known_usage_tokens": 1827674,
+        "successful_usage_records": 1928,
+        "records_with_missing_billing": 561
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 684,
+        "incorrect": 268,
+        "unknown": 48,
+        "accuracy_bounds": [
+          0.684,
+          0.732
+        ],
+        "execution_errors": 234,
+        "empty_answers": 240,
+        "mean_recorded_attempts": 2.543,
+        "stops": {
+          "None": 766,
+          "run_error": 234
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1556144,
+        "successful_usage_records": 2309,
+        "records_with_missing_billing": 562
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 738,
+        "incorrect": 260,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.738,
+          0.74
+        ],
+        "execution_errors": 228,
+        "empty_answers": 233,
+        "mean_recorded_attempts": 2.293,
+        "stops": {
+          "direct_single_shot": 225,
+          "planned_single_shot": 252,
+          "hard_cap:calls": 294,
+          "verdict_malformed": 1,
+          "run_error": 228
+        },
+        "levels": {
+          "easy": 225,
+          "medium": 252,
+          "hard": 295,
+          "None": 228
+        },
+        "route_methods": {
+          "rule_low": 171,
+          "judge": 424,
+          "rule_high": 172,
+          "rule_fallback": 5,
+          "None": 228
+        },
+        "known_usage_tokens": 1827674,
+        "successful_usage_records": 1928,
+        "records_with_missing_billing": 561
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 731,
+        "incorrect": 268,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.731,
+          0.732
+        ],
+        "execution_errors": 234,
+        "empty_answers": 240,
+        "mean_recorded_attempts": 2.543,
+        "stops": {
+          "None": 766,
+          "run_error": 234
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1556144,
+        "successful_usage_records": 2309,
+        "records_with_missing_billing": 562
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 740,
+        "incorrect": 260,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.74,
+          0.74
+        ],
+        "execution_errors": 228,
+        "empty_answers": 233,
+        "mean_recorded_attempts": 2.293,
+        "stops": {
+          "direct_single_shot": 225,
+          "planned_single_shot": 252,
+          "hard_cap:calls": 294,
+          "verdict_malformed": 1,
+          "run_error": 228
+        },
+        "levels": {
+          "easy": 225,
+          "medium": 252,
+          "hard": 295,
+          "None": 228
+        },
+        "route_methods": {
+          "rule_low": 171,
+          "judge": 424,
+          "rule_high": 172,
+          "rule_fallback": 5,
+          "None": 228
+        },
+        "known_usage_tokens": 1827674,
+        "successful_usage_records": 1928,
+        "records_with_missing_billing": 561
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 732,
+        "incorrect": 268,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.732,
+          0.732
+        ],
+        "execution_errors": 234,
+        "empty_answers": 240,
+        "mean_recorded_attempts": 2.543,
+        "stops": {
+          "None": 766,
+          "run_error": 234
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1556144,
+        "successful_usage_records": 2309,
+        "records_with_missing_billing": 562
+      }
+    }
+  },
+  "formal_math_budget4_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 838,
+        "incorrect": 94,
+        "unknown": 68,
+        "accuracy_bounds": [
+          0.838,
+          0.906
+        ],
+        "execution_errors": 61,
+        "empty_answers": 61,
+        "mean_recorded_attempts": 2.599,
+        "stops": {
+          "direct_single_shot": 283,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 147,
+          "planned_single_shot": 312,
+          "run_error": 61,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 283,
+          "hard": 344,
+          "medium": 312,
+          "None": 61
+        },
+        "route_methods": {
+          "rule_low": 199,
+          "judge": 526,
+          "rule_high": 200,
+          "None": 61,
+          "rule_fallback": 14
+        },
+        "known_usage_tokens": 2403740,
+        "successful_usage_records": 2509,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 815,
+        "incorrect": 128,
+        "unknown": 57,
+        "accuracy_bounds": [
+          0.815,
+          0.872
+        ],
+        "execution_errors": 95,
+        "empty_answers": 95,
+        "mean_recorded_attempts": 3.783,
+        "stops": {
+          "None": 905,
+          "run_error": 95
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2289485,
+        "successful_usage_records": 3688,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 840,
+        "incorrect": 92,
+        "unknown": 68,
+        "accuracy_bounds": [
+          0.84,
+          0.908
+        ],
+        "execution_errors": 61,
+        "empty_answers": 61,
+        "mean_recorded_attempts": 2.599,
+        "stops": {
+          "direct_single_shot": 283,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 147,
+          "planned_single_shot": 312,
+          "run_error": 61,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 283,
+          "hard": 344,
+          "medium": 312,
+          "None": 61
+        },
+        "route_methods": {
+          "rule_low": 199,
+          "judge": 526,
+          "rule_high": 200,
+          "None": 61,
+          "rule_fallback": 14
+        },
+        "known_usage_tokens": 2403740,
+        "successful_usage_records": 2509,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 817,
+        "incorrect": 126,
+        "unknown": 57,
+        "accuracy_bounds": [
+          0.817,
+          0.874
+        ],
+        "execution_errors": 95,
+        "empty_answers": 95,
+        "mean_recorded_attempts": 3.783,
+        "stops": {
+          "None": 905,
+          "run_error": 95
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2289485,
+        "successful_usage_records": 3688,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 907,
+        "incorrect": 92,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.907,
+          0.908
+        ],
+        "execution_errors": 61,
+        "empty_answers": 61,
+        "mean_recorded_attempts": 2.599,
+        "stops": {
+          "direct_single_shot": 283,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 147,
+          "planned_single_shot": 312,
+          "run_error": 61,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 283,
+          "hard": 344,
+          "medium": 312,
+          "None": 61
+        },
+        "route_methods": {
+          "rule_low": 199,
+          "judge": 526,
+          "rule_high": 200,
+          "None": 61,
+          "rule_fallback": 14
+        },
+        "known_usage_tokens": 2403740,
+        "successful_usage_records": 2509,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 873,
+        "incorrect": 126,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.873,
+          0.874
+        ],
+        "execution_errors": 95,
+        "empty_answers": 95,
+        "mean_recorded_attempts": 3.783,
+        "stops": {
+          "None": 905,
+          "run_error": 95
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2289485,
+        "successful_usage_records": 3688,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 908,
+        "incorrect": 92,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.908,
+          0.908
+        ],
+        "execution_errors": 61,
+        "empty_answers": 61,
+        "mean_recorded_attempts": 2.599,
+        "stops": {
+          "direct_single_shot": 283,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 147,
+          "planned_single_shot": 312,
+          "run_error": 61,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "easy": 283,
+          "hard": 344,
+          "medium": 312,
+          "None": 61
+        },
+        "route_methods": {
+          "rule_low": 199,
+          "judge": 526,
+          "rule_high": 200,
+          "None": 61,
+          "rule_fallback": 14
+        },
+        "known_usage_tokens": 2403740,
+        "successful_usage_records": 2509,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 874,
+        "incorrect": 126,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.874,
+          0.874
+        ],
+        "execution_errors": 95,
+        "empty_answers": 95,
+        "mean_recorded_attempts": 3.783,
+        "stops": {
+          "None": 905,
+          "run_error": 95
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2289485,
+        "successful_usage_records": 3688,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_repeats_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 300,
+        "correct": 194,
+        "incorrect": 79,
+        "unknown": 27,
+        "accuracy_bounds": [
+          0.6466666666666666,
+          0.7366666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.3566666666666665,
+        "stops": {
+          "direct_single_shot": 89,
+          "planned_single_shot": 99,
+          "reflection_verdict_pass": 98,
+          "verdict_malformed": 2,
+          "hard_cap:calls": 12
+        },
+        "levels": {
+          "easy": 90,
+          "medium": 98,
+          "hard": 112
+        },
+        "route_methods": {
+          "rule_low": 60,
+          "judge": 156,
+          "rule_high": 84
+        },
+        "known_usage_tokens": 541474,
+        "successful_usage_records": 1007,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 127,
+        "incorrect": 140,
+        "unknown": 33,
+        "accuracy_bounds": [
+          0.42333333333333334,
+          0.5333333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 74248,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 248,
+        "incorrect": 30,
+        "unknown": 22,
+        "accuracy_bounds": [
+          0.8266666666666667,
+          0.9
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 4.28,
+        "stops": {
+          "reflection_verdict_pass": 169,
+          "fixed_rounds:2": 128,
+          "verdict_malformed": 3
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 657776,
+        "successful_usage_records": 1284,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 158,
+        "incorrect": 114,
+        "unknown": 28,
+        "accuracy_bounds": [
+          0.5266666666666666,
+          0.62
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 195457,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 135,
+        "incorrect": 138,
+        "unknown": 27,
+        "accuracy_bounds": [
+          0.45,
+          0.54
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 213373,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 300,
+        "correct": 194,
+        "incorrect": 79,
+        "unknown": 27,
+        "accuracy_bounds": [
+          0.6466666666666666,
+          0.7366666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.3566666666666665,
+        "stops": {
+          "direct_single_shot": 89,
+          "planned_single_shot": 99,
+          "reflection_verdict_pass": 98,
+          "verdict_malformed": 2,
+          "hard_cap:calls": 12
+        },
+        "levels": {
+          "easy": 90,
+          "medium": 98,
+          "hard": 112
+        },
+        "route_methods": {
+          "rule_low": 60,
+          "judge": 156,
+          "rule_high": 84
+        },
+        "known_usage_tokens": 541474,
+        "successful_usage_records": 1007,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 127,
+        "incorrect": 140,
+        "unknown": 33,
+        "accuracy_bounds": [
+          0.42333333333333334,
+          0.5333333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 74248,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 248,
+        "incorrect": 30,
+        "unknown": 22,
+        "accuracy_bounds": [
+          0.8266666666666667,
+          0.9
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 4.28,
+        "stops": {
+          "reflection_verdict_pass": 169,
+          "fixed_rounds:2": 128,
+          "verdict_malformed": 3
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 657776,
+        "successful_usage_records": 1284,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 158,
+        "incorrect": 114,
+        "unknown": 28,
+        "accuracy_bounds": [
+          0.5266666666666666,
+          0.62
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 195457,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 135,
+        "incorrect": 138,
+        "unknown": 27,
+        "accuracy_bounds": [
+          0.45,
+          0.54
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 213373,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 300,
+        "correct": 207,
+        "incorrect": 93,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.69,
+          0.69
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.3566666666666665,
+        "stops": {
+          "direct_single_shot": 89,
+          "planned_single_shot": 99,
+          "reflection_verdict_pass": 98,
+          "verdict_malformed": 2,
+          "hard_cap:calls": 12
+        },
+        "levels": {
+          "easy": 90,
+          "medium": 98,
+          "hard": 112
+        },
+        "route_methods": {
+          "rule_low": 60,
+          "judge": 156,
+          "rule_high": 84
+        },
+        "known_usage_tokens": 541474,
+        "successful_usage_records": 1007,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 137,
+        "incorrect": 163,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.45666666666666667,
+          0.45666666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 74248,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 264,
+        "incorrect": 36,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.88,
+          0.88
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 4.28,
+        "stops": {
+          "reflection_verdict_pass": 169,
+          "fixed_rounds:2": 128,
+          "verdict_malformed": 3
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 657776,
+        "successful_usage_records": 1284,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 168,
+        "incorrect": 132,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.56,
+          0.56
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 195457,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 142,
+        "incorrect": 158,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.47333333333333333,
+          0.47333333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 213373,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 300,
+        "correct": 207,
+        "incorrect": 93,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.69,
+          0.69
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.3566666666666665,
+        "stops": {
+          "direct_single_shot": 89,
+          "planned_single_shot": 99,
+          "reflection_verdict_pass": 98,
+          "verdict_malformed": 2,
+          "hard_cap:calls": 12
+        },
+        "levels": {
+          "easy": 90,
+          "medium": 98,
+          "hard": 112
+        },
+        "route_methods": {
+          "rule_low": 60,
+          "judge": 156,
+          "rule_high": 84
+        },
+        "known_usage_tokens": 541474,
+        "successful_usage_records": 1007,
+        "records_with_missing_billing": 300
+      },
+      "direct": {
+        "n": 300,
+        "correct": 137,
+        "incorrect": 163,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.45666666666666667,
+          0.45666666666666667
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 74248,
+        "successful_usage_records": 300,
+        "records_with_missing_billing": 300
+      },
+      "plan_reflect": {
+        "n": 300,
+        "correct": 264,
+        "incorrect": 36,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.88,
+          0.88
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 4.28,
+        "stops": {
+          "reflection_verdict_pass": 169,
+          "fixed_rounds:2": 128,
+          "verdict_malformed": 3
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 657776,
+        "successful_usage_records": 1284,
+        "records_with_missing_billing": 300
+      },
+      "planning": {
+        "n": 300,
+        "correct": 168,
+        "incorrect": 132,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.56,
+          0.56
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.0,
+        "stops": {
+          "planned_single_shot": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 195457,
+        "successful_usage_records": 600,
+        "records_with_missing_billing": 300
+      },
+      "vote_k": {
+        "n": 300,
+        "correct": 142,
+        "incorrect": 158,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.47333333333333333,
+          0.47333333333333333
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 3.0,
+        "stops": {
+          "None": 300
+        },
+        "levels": {
+          "None": 300
+        },
+        "route_methods": {
+          "None": 300
+        },
+        "known_usage_tokens": 213373,
+        "successful_usage_records": 900,
+        "records_with_missing_billing": 300
+      }
+    }
+  },
+  "formal_gsm8k_ablation_rule_only_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 826,
+        "incorrect": 173,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.826,
+          0.827
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.004,
+        "stops": {
+          "direct_single_shot": 147,
+          "planned_single_shot": 785,
+          "reflection_verdict_pass": 67,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 147,
+          "medium": 785,
+          "hard": 68
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 619648,
+        "successful_usage_records": 2004,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 827,
+        "incorrect": 172,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.827,
+          0.828
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.004,
+        "stops": {
+          "direct_single_shot": 147,
+          "planned_single_shot": 785,
+          "reflection_verdict_pass": 67,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 147,
+          "medium": 785,
+          "hard": 68
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 619648,
+        "successful_usage_records": 2004,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 827,
+        "incorrect": 173,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.827,
+          0.827
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.004,
+        "stops": {
+          "direct_single_shot": 147,
+          "planned_single_shot": 785,
+          "reflection_verdict_pass": 67,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 147,
+          "medium": 785,
+          "hard": 68
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 619648,
+        "successful_usage_records": 2004,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 827,
+        "incorrect": 173,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.827,
+          0.827
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.004,
+        "stops": {
+          "direct_single_shot": 147,
+          "planned_single_shot": 785,
+          "reflection_verdict_pass": 67,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "easy": 147,
+          "medium": 785,
+          "hard": 68
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 619648,
+        "successful_usage_records": 2004,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_ablation_all_judge_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 956,
+        "incorrect": 44,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.956,
+          0.956
+        ],
+        "execution_errors": 4,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 3.094,
+        "stops": {
+          "planned_single_shot": 705,
+          "direct_single_shot": 112,
+          "reflection_verdict_pass": 178,
+          "run_error": 4,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "medium": 705,
+          "easy": 112,
+          "hard": 179,
+          "None": 4
+        },
+        "route_methods": {
+          "judge": 987,
+          "rule_fallback": 9,
+          "None": 4
+        },
+        "known_usage_tokens": 2400203,
+        "successful_usage_records": 3080,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 956,
+        "incorrect": 44,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.956,
+          0.956
+        ],
+        "execution_errors": 4,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 3.094,
+        "stops": {
+          "planned_single_shot": 705,
+          "direct_single_shot": 112,
+          "reflection_verdict_pass": 178,
+          "run_error": 4,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "medium": 705,
+          "easy": 112,
+          "hard": 179,
+          "None": 4
+        },
+        "route_methods": {
+          "judge": 987,
+          "rule_fallback": 9,
+          "None": 4
+        },
+        "known_usage_tokens": 2400203,
+        "successful_usage_records": 3080,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 956,
+        "incorrect": 44,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.956,
+          0.956
+        ],
+        "execution_errors": 4,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 3.094,
+        "stops": {
+          "planned_single_shot": 705,
+          "direct_single_shot": 112,
+          "reflection_verdict_pass": 178,
+          "run_error": 4,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "medium": 705,
+          "easy": 112,
+          "hard": 179,
+          "None": 4
+        },
+        "route_methods": {
+          "judge": 987,
+          "rule_fallback": 9,
+          "None": 4
+        },
+        "known_usage_tokens": 2400203,
+        "successful_usage_records": 3080,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 956,
+        "incorrect": 44,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.956,
+          0.956
+        ],
+        "execution_errors": 4,
+        "empty_answers": 4,
+        "mean_recorded_attempts": 3.094,
+        "stops": {
+          "planned_single_shot": 705,
+          "direct_single_shot": 112,
+          "reflection_verdict_pass": 178,
+          "run_error": 4,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "medium": 705,
+          "easy": 112,
+          "hard": 179,
+          "None": 4
+        },
+        "route_methods": {
+          "judge": 987,
+          "rule_fallback": 9,
+          "None": 4
+        },
+        "known_usage_tokens": 2400203,
+        "successful_usage_records": 3080,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_ablation_fixed_easy_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 963,
+        "incorrect": 37,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.963,
+          0.963
+        ],
+        "execution_errors": 5,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "easy": 995,
+          "None": 5
+        },
+        "route_methods": {
+          "fixed_easy": 995,
+          "None": 5
+        },
+        "known_usage_tokens": 366725,
+        "successful_usage_records": 995,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 964,
+        "incorrect": 36,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.964,
+          0.964
+        ],
+        "execution_errors": 5,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "easy": 995,
+          "None": 5
+        },
+        "route_methods": {
+          "fixed_easy": 995,
+          "None": 5
+        },
+        "known_usage_tokens": 366725,
+        "successful_usage_records": 995,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 964,
+        "incorrect": 36,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.964,
+          0.964
+        ],
+        "execution_errors": 5,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "easy": 995,
+          "None": 5
+        },
+        "route_methods": {
+          "fixed_easy": 995,
+          "None": 5
+        },
+        "known_usage_tokens": 366725,
+        "successful_usage_records": 995,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 964,
+        "incorrect": 36,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.964,
+          0.964
+        ],
+        "execution_errors": 5,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 995,
+          "run_error": 5
+        },
+        "levels": {
+          "easy": 995,
+          "None": 5
+        },
+        "route_methods": {
+          "fixed_easy": 995,
+          "None": 5
+        },
+        "known_usage_tokens": 366725,
+        "successful_usage_records": 995,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_ablation_fixed_medium_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 961,
+        "incorrect": 39,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.961,
+          0.961
+        ],
+        "execution_errors": 1,
+        "empty_answers": 1,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "medium": 999,
+          "None": 1
+        },
+        "route_methods": {
+          "fixed_medium": 999,
+          "None": 1
+        },
+        "known_usage_tokens": 830339,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 961,
+        "incorrect": 39,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.961,
+          0.961
+        ],
+        "execution_errors": 1,
+        "empty_answers": 1,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "medium": 999,
+          "None": 1
+        },
+        "route_methods": {
+          "fixed_medium": 999,
+          "None": 1
+        },
+        "known_usage_tokens": 830339,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 961,
+        "incorrect": 39,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.961,
+          0.961
+        ],
+        "execution_errors": 1,
+        "empty_answers": 1,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "medium": 999,
+          "None": 1
+        },
+        "route_methods": {
+          "fixed_medium": 999,
+          "None": 1
+        },
+        "known_usage_tokens": 830339,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 961,
+        "incorrect": 39,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.961,
+          0.961
+        ],
+        "execution_errors": 1,
+        "empty_answers": 1,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "medium": 999,
+          "None": 1
+        },
+        "route_methods": {
+          "fixed_medium": 999,
+          "None": 1
+        },
+        "known_usage_tokens": 830339,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_ablation_fixed_hard_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 957,
+        "incorrect": 43,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.957,
+          0.957
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.021,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1703717,
+        "successful_usage_records": 3014,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 957,
+        "incorrect": 43,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.957,
+          0.957
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.021,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1703717,
+        "successful_usage_records": 3014,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 957,
+        "incorrect": 43,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.957,
+          0.957
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.021,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1703717,
+        "successful_usage_records": 3014,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 957,
+        "incorrect": 43,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.957,
+          0.957
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.021,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1703717,
+        "successful_usage_records": 3014,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_ablation_no_reflection_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 836,
+        "incorrect": 164,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.836,
+          0.836
+        ],
+        "execution_errors": 19,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 2.486,
+        "stops": {
+          "direct_single_shot": 282,
+          "planned_single_shot": 699,
+          "run_error": 19
+        },
+        "levels": {
+          "easy": 282,
+          "hard": 113,
+          "medium": 586,
+          "None": 19
+        },
+        "route_methods": {
+          "rule_low": 145,
+          "rule_high": 67,
+          "judge": 761,
+          "rule_fallback": 8,
+          "None": 19
+        },
+        "known_usage_tokens": 1154115,
+        "successful_usage_records": 2448,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 837,
+        "incorrect": 163,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.837,
+          0.837
+        ],
+        "execution_errors": 19,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 2.486,
+        "stops": {
+          "direct_single_shot": 282,
+          "planned_single_shot": 699,
+          "run_error": 19
+        },
+        "levels": {
+          "easy": 282,
+          "hard": 113,
+          "medium": 586,
+          "None": 19
+        },
+        "route_methods": {
+          "rule_low": 145,
+          "rule_high": 67,
+          "judge": 761,
+          "rule_fallback": 8,
+          "None": 19
+        },
+        "known_usage_tokens": 1154115,
+        "successful_usage_records": 2448,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 837,
+        "incorrect": 163,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.837,
+          0.837
+        ],
+        "execution_errors": 19,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 2.486,
+        "stops": {
+          "direct_single_shot": 282,
+          "planned_single_shot": 699,
+          "run_error": 19
+        },
+        "levels": {
+          "easy": 282,
+          "hard": 113,
+          "medium": 586,
+          "None": 19
+        },
+        "route_methods": {
+          "rule_low": 145,
+          "rule_high": 67,
+          "judge": 761,
+          "rule_fallback": 8,
+          "None": 19
+        },
+        "known_usage_tokens": 1154115,
+        "successful_usage_records": 2448,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 837,
+        "incorrect": 163,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.837,
+          0.837
+        ],
+        "execution_errors": 19,
+        "empty_answers": 19,
+        "mean_recorded_attempts": 2.486,
+        "stops": {
+          "direct_single_shot": 282,
+          "planned_single_shot": 699,
+          "run_error": 19
+        },
+        "levels": {
+          "easy": 282,
+          "hard": 113,
+          "medium": 586,
+          "None": 19
+        },
+        "route_methods": {
+          "rule_low": 145,
+          "rule_high": 67,
+          "judge": 761,
+          "rule_fallback": 8,
+          "None": 19
+        },
+        "known_usage_tokens": 1154115,
+        "successful_usage_records": 2448,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_ablation_fixed_stop2_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 948,
+        "incorrect": 52,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.948,
+          0.948
+        ],
+        "execution_errors": 17,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 2.802,
+        "stops": {
+          "direct_single_shot": 188,
+          "reflection_verdict_pass": 192,
+          "planned_single_shot": 598,
+          "fixed_rounds:2": 5,
+          "run_error": 17
+        },
+        "levels": {
+          "easy": 188,
+          "hard": 197,
+          "medium": 598,
+          "None": 17
+        },
+        "route_methods": {
+          "rule_low": 143,
+          "rule_high": 63,
+          "judge": 772,
+          "None": 17,
+          "rule_fallback": 5
+        },
+        "known_usage_tokens": 1620980,
+        "successful_usage_records": 2777,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 17,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 2.802,
+        "stops": {
+          "direct_single_shot": 188,
+          "reflection_verdict_pass": 192,
+          "planned_single_shot": 598,
+          "fixed_rounds:2": 5,
+          "run_error": 17
+        },
+        "levels": {
+          "easy": 188,
+          "hard": 197,
+          "medium": 598,
+          "None": 17
+        },
+        "route_methods": {
+          "rule_low": 143,
+          "rule_high": 63,
+          "judge": 772,
+          "None": 17,
+          "rule_fallback": 5
+        },
+        "known_usage_tokens": 1620980,
+        "successful_usage_records": 2777,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 17,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 2.802,
+        "stops": {
+          "direct_single_shot": 188,
+          "reflection_verdict_pass": 192,
+          "planned_single_shot": 598,
+          "fixed_rounds:2": 5,
+          "run_error": 17
+        },
+        "levels": {
+          "easy": 188,
+          "hard": 197,
+          "medium": 598,
+          "None": 17
+        },
+        "route_methods": {
+          "rule_low": 143,
+          "rule_high": 63,
+          "judge": 772,
+          "None": 17,
+          "rule_fallback": 5
+        },
+        "known_usage_tokens": 1620980,
+        "successful_usage_records": 2777,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 17,
+        "empty_answers": 17,
+        "mean_recorded_attempts": 2.802,
+        "stops": {
+          "direct_single_shot": 188,
+          "reflection_verdict_pass": 192,
+          "planned_single_shot": 598,
+          "fixed_rounds:2": 5,
+          "run_error": 17
+        },
+        "levels": {
+          "easy": 188,
+          "hard": 197,
+          "medium": 598,
+          "None": 17
+        },
+        "route_methods": {
+          "rule_low": 143,
+          "rule_high": 63,
+          "judge": 772,
+          "None": 17,
+          "rule_fallback": 5
+        },
+        "known_usage_tokens": 1620980,
+        "successful_usage_records": 2777,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_ablation_fixed_stop2_ignore_pass_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 942,
+        "incorrect": 58,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.942,
+          0.942
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 3.446,
+        "stops": {
+          "direct_single_shot": 199,
+          "planned_single_shot": 565,
+          "fixed_rounds:2": 213,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 199,
+          "medium": 565,
+          "hard": 213,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 146,
+          "judge": 760,
+          "rule_high": 67,
+          "None": 23,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2293548,
+        "successful_usage_records": 3419,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 943,
+        "incorrect": 57,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.943,
+          0.943
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 3.446,
+        "stops": {
+          "direct_single_shot": 199,
+          "planned_single_shot": 565,
+          "fixed_rounds:2": 213,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 199,
+          "medium": 565,
+          "hard": 213,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 146,
+          "judge": 760,
+          "rule_high": 67,
+          "None": 23,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2293548,
+        "successful_usage_records": 3419,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 943,
+        "incorrect": 57,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.943,
+          0.943
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 3.446,
+        "stops": {
+          "direct_single_shot": 199,
+          "planned_single_shot": 565,
+          "fixed_rounds:2": 213,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 199,
+          "medium": 565,
+          "hard": 213,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 146,
+          "judge": 760,
+          "rule_high": 67,
+          "None": 23,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2293548,
+        "successful_usage_records": 3419,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 943,
+        "incorrect": 57,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.943,
+          0.943
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 3.446,
+        "stops": {
+          "direct_single_shot": 199,
+          "planned_single_shot": 565,
+          "fixed_rounds:2": 213,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 199,
+          "medium": 565,
+          "hard": 213,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 146,
+          "judge": 760,
+          "rule_high": 67,
+          "None": 23,
+          "rule_fallback": 4
+        },
+        "known_usage_tokens": 2293548,
+        "successful_usage_records": 3419,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_gsm8k_qwen_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 965,
+        "incorrect": 34,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.965,
+          0.966
+        ],
+        "execution_errors": 2,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 2.77,
+        "stops": {
+          "reflection_verdict_pass": 167,
+          "direct_single_shot": 201,
+          "planned_single_shot": 622,
+          "verdict_malformed": 7,
+          "hard_cap:calls": 1,
+          "run_error": 2
+        },
+        "levels": {
+          "hard": 175,
+          "easy": 201,
+          "medium": 622,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_high": 68,
+          "rule_low": 147,
+          "judge": 781,
+          "rule_fallback": 2,
+          "None": 2
+        },
+        "known_usage_tokens": 2103151,
+        "successful_usage_records": 2766,
+        "records_with_missing_billing": 251
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 971,
+        "incorrect": 29,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.971,
+          0.971
+        ],
+        "execution_errors": 1,
+        "empty_answers": 6,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 470834,
+        "successful_usage_records": 999,
+        "records_with_missing_billing": 248
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 962,
+        "incorrect": 38,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.962,
+          0.962
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.03,
+        "stops": {
+          "reflection_verdict_pass": 969,
+          "verdict_malformed": 13,
+          "fixed_rounds:2": 11,
+          "run_error": 7
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2359756,
+        "successful_usage_records": 3023,
+        "records_with_missing_billing": 252
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 969,
+        "incorrect": 31,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.969,
+          0.969
+        ],
+        "execution_errors": 1,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1059053,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 248
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 968,
+        "incorrect": 32,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.968,
+          0.968
+        ],
+        "execution_errors": 4,
+        "empty_answers": 8,
+        "mean_recorded_attempts": 2.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1468585,
+        "successful_usage_records": 2993,
+        "records_with_missing_billing": 250
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 966,
+        "incorrect": 34,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.966,
+          0.966
+        ],
+        "execution_errors": 2,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 2.77,
+        "stops": {
+          "reflection_verdict_pass": 167,
+          "direct_single_shot": 201,
+          "planned_single_shot": 622,
+          "verdict_malformed": 7,
+          "hard_cap:calls": 1,
+          "run_error": 2
+        },
+        "levels": {
+          "hard": 175,
+          "easy": 201,
+          "medium": 622,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_high": 68,
+          "rule_low": 147,
+          "judge": 781,
+          "rule_fallback": 2,
+          "None": 2
+        },
+        "known_usage_tokens": 2103151,
+        "successful_usage_records": 2766,
+        "records_with_missing_billing": 251
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 972,
+        "incorrect": 28,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.972,
+          0.972
+        ],
+        "execution_errors": 1,
+        "empty_answers": 6,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 470834,
+        "successful_usage_records": 999,
+        "records_with_missing_billing": 248
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 963,
+        "incorrect": 37,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.963,
+          0.963
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.03,
+        "stops": {
+          "reflection_verdict_pass": 969,
+          "verdict_malformed": 13,
+          "fixed_rounds:2": 11,
+          "run_error": 7
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2359756,
+        "successful_usage_records": 3023,
+        "records_with_missing_billing": 252
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 969,
+        "incorrect": 31,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.969,
+          0.969
+        ],
+        "execution_errors": 1,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1059053,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 248
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 969,
+        "incorrect": 31,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.969,
+          0.969
+        ],
+        "execution_errors": 4,
+        "empty_answers": 8,
+        "mean_recorded_attempts": 2.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1468585,
+        "successful_usage_records": 2993,
+        "records_with_missing_billing": 250
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 977,
+        "incorrect": 22,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.977,
+          0.978
+        ],
+        "execution_errors": 2,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 2.77,
+        "stops": {
+          "reflection_verdict_pass": 167,
+          "direct_single_shot": 201,
+          "planned_single_shot": 622,
+          "verdict_malformed": 7,
+          "hard_cap:calls": 1,
+          "run_error": 2
+        },
+        "levels": {
+          "hard": 175,
+          "easy": 201,
+          "medium": 622,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_high": 68,
+          "rule_low": 147,
+          "judge": 781,
+          "rule_fallback": 2,
+          "None": 2
+        },
+        "known_usage_tokens": 2103151,
+        "successful_usage_records": 2766,
+        "records_with_missing_billing": 251
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 972,
+        "incorrect": 28,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.972,
+          0.972
+        ],
+        "execution_errors": 1,
+        "empty_answers": 6,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 470834,
+        "successful_usage_records": 999,
+        "records_with_missing_billing": 248
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 975,
+        "incorrect": 24,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.975,
+          0.976
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.03,
+        "stops": {
+          "reflection_verdict_pass": 969,
+          "verdict_malformed": 13,
+          "fixed_rounds:2": 11,
+          "run_error": 7
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2359756,
+        "successful_usage_records": 3023,
+        "records_with_missing_billing": 252
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 969,
+        "incorrect": 31,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.969,
+          0.969
+        ],
+        "execution_errors": 1,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1059053,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 248
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 969,
+        "incorrect": 31,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.969,
+          0.969
+        ],
+        "execution_errors": 4,
+        "empty_answers": 8,
+        "mean_recorded_attempts": 2.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1468585,
+        "successful_usage_records": 2993,
+        "records_with_missing_billing": 250
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 977,
+        "incorrect": 22,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.977,
+          0.978
+        ],
+        "execution_errors": 2,
+        "empty_answers": 5,
+        "mean_recorded_attempts": 2.77,
+        "stops": {
+          "reflection_verdict_pass": 167,
+          "direct_single_shot": 201,
+          "planned_single_shot": 622,
+          "verdict_malformed": 7,
+          "hard_cap:calls": 1,
+          "run_error": 2
+        },
+        "levels": {
+          "hard": 175,
+          "easy": 201,
+          "medium": 622,
+          "None": 2
+        },
+        "route_methods": {
+          "rule_high": 68,
+          "rule_low": 147,
+          "judge": 781,
+          "rule_fallback": 2,
+          "None": 2
+        },
+        "known_usage_tokens": 2103151,
+        "successful_usage_records": 2766,
+        "records_with_missing_billing": 251
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 972,
+        "incorrect": 28,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.972,
+          0.972
+        ],
+        "execution_errors": 1,
+        "empty_answers": 6,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 470834,
+        "successful_usage_records": 999,
+        "records_with_missing_billing": 248
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 975,
+        "incorrect": 24,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.975,
+          0.976
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.03,
+        "stops": {
+          "reflection_verdict_pass": 969,
+          "verdict_malformed": 13,
+          "fixed_rounds:2": 11,
+          "run_error": 7
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2359756,
+        "successful_usage_records": 3023,
+        "records_with_missing_billing": 252
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 969,
+        "incorrect": 31,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.969,
+          0.969
+        ],
+        "execution_errors": 1,
+        "empty_answers": 2,
+        "mean_recorded_attempts": 1.999,
+        "stops": {
+          "planned_single_shot": 999,
+          "run_error": 1
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1059053,
+        "successful_usage_records": 1998,
+        "records_with_missing_billing": 248
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 969,
+        "incorrect": 31,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.969,
+          0.969
+        ],
+        "execution_errors": 4,
+        "empty_answers": 8,
+        "mean_recorded_attempts": 2.997,
+        "stops": {
+          "None": 996,
+          "run_error": 4
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1468585,
+        "successful_usage_records": 2993,
+        "records_with_missing_billing": 250
+      }
+    }
+  },
+  "formal_math_ablation_rule_only_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 566,
+        "incorrect": 331,
+        "unknown": 103,
+        "accuracy_bounds": [
+          0.566,
+          0.669
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.456,
+        "stops": {
+          "direct_single_shot": 211,
+          "planned_single_shot": 568,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 18,
+          "verdict_malformed": 3,
+          "gain_below_delta:0.05": 4
+        },
+        "levels": {
+          "easy": 211,
+          "medium": 568,
+          "hard": 221
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 1206447,
+        "successful_usage_records": 2456,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 568,
+        "incorrect": 329,
+        "unknown": 103,
+        "accuracy_bounds": [
+          0.568,
+          0.671
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.456,
+        "stops": {
+          "direct_single_shot": 211,
+          "planned_single_shot": 568,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 18,
+          "verdict_malformed": 3,
+          "gain_below_delta:0.05": 4
+        },
+        "levels": {
+          "easy": 211,
+          "medium": 568,
+          "hard": 221
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 1206447,
+        "successful_usage_records": 2456,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 630,
+        "incorrect": 368,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.63,
+          0.632
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.456,
+        "stops": {
+          "direct_single_shot": 211,
+          "planned_single_shot": 568,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 18,
+          "verdict_malformed": 3,
+          "gain_below_delta:0.05": 4
+        },
+        "levels": {
+          "easy": 211,
+          "medium": 568,
+          "hard": 221
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 1206447,
+        "successful_usage_records": 2456,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 631,
+        "incorrect": 369,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.631,
+          0.631
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.456,
+        "stops": {
+          "direct_single_shot": 211,
+          "planned_single_shot": 568,
+          "reflection_verdict_pass": 196,
+          "hard_cap:calls": 18,
+          "verdict_malformed": 3,
+          "gain_below_delta:0.05": 4
+        },
+        "levels": {
+          "easy": 211,
+          "medium": 568,
+          "hard": 221
+        },
+        "route_methods": {
+          "rule_only": 1000
+        },
+        "known_usage_tokens": 1206447,
+        "successful_usage_records": 2456,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_ablation_all_judge_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 855,
+        "incorrect": 69,
+        "unknown": 76,
+        "accuracy_bounds": [
+          0.855,
+          0.931
+        ],
+        "execution_errors": 32,
+        "empty_answers": 32,
+        "mean_recorded_attempts": 3.132,
+        "stops": {
+          "planned_single_shot": 537,
+          "direct_single_shot": 159,
+          "reflection_verdict_pass": 270,
+          "run_error": 32,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "medium": 537,
+          "easy": 159,
+          "hard": 272,
+          "None": 32
+        },
+        "route_methods": {
+          "judge": 946,
+          "None": 32,
+          "rule_fallback": 22
+        },
+        "known_usage_tokens": 3099488,
+        "successful_usage_records": 3073,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 858,
+        "incorrect": 66,
+        "unknown": 76,
+        "accuracy_bounds": [
+          0.858,
+          0.934
+        ],
+        "execution_errors": 32,
+        "empty_answers": 32,
+        "mean_recorded_attempts": 3.132,
+        "stops": {
+          "planned_single_shot": 537,
+          "direct_single_shot": 159,
+          "reflection_verdict_pass": 270,
+          "run_error": 32,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "medium": 537,
+          "easy": 159,
+          "hard": 272,
+          "None": 32
+        },
+        "route_methods": {
+          "judge": 946,
+          "None": 32,
+          "rule_fallback": 22
+        },
+        "known_usage_tokens": 3099488,
+        "successful_usage_records": 3073,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 932,
+        "incorrect": 66,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.932,
+          0.934
+        ],
+        "execution_errors": 32,
+        "empty_answers": 32,
+        "mean_recorded_attempts": 3.132,
+        "stops": {
+          "planned_single_shot": 537,
+          "direct_single_shot": 159,
+          "reflection_verdict_pass": 270,
+          "run_error": 32,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "medium": 537,
+          "easy": 159,
+          "hard": 272,
+          "None": 32
+        },
+        "route_methods": {
+          "judge": 946,
+          "None": 32,
+          "rule_fallback": 22
+        },
+        "known_usage_tokens": 3099488,
+        "successful_usage_records": 3073,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 934,
+        "incorrect": 66,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.934,
+          0.934
+        ],
+        "execution_errors": 32,
+        "empty_answers": 32,
+        "mean_recorded_attempts": 3.132,
+        "stops": {
+          "planned_single_shot": 537,
+          "direct_single_shot": 159,
+          "reflection_verdict_pass": 270,
+          "run_error": 32,
+          "hard_cap:calls": 1,
+          "verdict_malformed": 1
+        },
+        "levels": {
+          "medium": 537,
+          "easy": 159,
+          "hard": 272,
+          "None": 32
+        },
+        "route_methods": {
+          "judge": 946,
+          "None": 32,
+          "rule_fallback": 22
+        },
+        "known_usage_tokens": 3099488,
+        "successful_usage_records": 3073,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_ablation_fixed_easy_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 876,
+        "incorrect": 54,
+        "unknown": 70,
+        "accuracy_bounds": [
+          0.876,
+          0.946
+        ],
+        "execution_errors": 15,
+        "empty_answers": 15,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 985,
+          "run_error": 15
+        },
+        "levels": {
+          "easy": 985,
+          "None": 15
+        },
+        "route_methods": {
+          "fixed_easy": 985,
+          "None": 15
+        },
+        "known_usage_tokens": 623908,
+        "successful_usage_records": 985,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 879,
+        "incorrect": 51,
+        "unknown": 70,
+        "accuracy_bounds": [
+          0.879,
+          0.949
+        ],
+        "execution_errors": 15,
+        "empty_answers": 15,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 985,
+          "run_error": 15
+        },
+        "levels": {
+          "easy": 985,
+          "None": 15
+        },
+        "route_methods": {
+          "fixed_easy": 985,
+          "None": 15
+        },
+        "known_usage_tokens": 623908,
+        "successful_usage_records": 985,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 947,
+        "incorrect": 51,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.947,
+          0.949
+        ],
+        "execution_errors": 15,
+        "empty_answers": 15,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 985,
+          "run_error": 15
+        },
+        "levels": {
+          "easy": 985,
+          "None": 15
+        },
+        "route_methods": {
+          "fixed_easy": 985,
+          "None": 15
+        },
+        "known_usage_tokens": 623908,
+        "successful_usage_records": 985,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 949,
+        "incorrect": 51,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.949,
+          0.949
+        ],
+        "execution_errors": 15,
+        "empty_answers": 15,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 985,
+          "run_error": 15
+        },
+        "levels": {
+          "easy": 985,
+          "None": 15
+        },
+        "route_methods": {
+          "fixed_easy": 985,
+          "None": 15
+        },
+        "known_usage_tokens": 623908,
+        "successful_usage_records": 985,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_ablation_fixed_medium_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 857,
+        "incorrect": 34,
+        "unknown": 109,
+        "accuracy_bounds": [
+          0.857,
+          0.966
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 993,
+          "run_error": 7
+        },
+        "levels": {
+          "medium": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_medium": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1160241,
+        "successful_usage_records": 1990,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 859,
+        "incorrect": 32,
+        "unknown": 109,
+        "accuracy_bounds": [
+          0.859,
+          0.968
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 993,
+          "run_error": 7
+        },
+        "levels": {
+          "medium": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_medium": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1160241,
+        "successful_usage_records": 1990,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 966,
+        "incorrect": 32,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.966,
+          0.968
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 993,
+          "run_error": 7
+        },
+        "levels": {
+          "medium": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_medium": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1160241,
+        "successful_usage_records": 1990,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 968,
+        "incorrect": 32,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.968,
+          0.968
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 1.997,
+        "stops": {
+          "planned_single_shot": 993,
+          "run_error": 7
+        },
+        "levels": {
+          "medium": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_medium": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 1160241,
+        "successful_usage_records": 1990,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_ablation_fixed_hard_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 870,
+        "incorrect": 35,
+        "unknown": 95,
+        "accuracy_bounds": [
+          0.87,
+          0.965
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.037,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 2145050,
+        "successful_usage_records": 3030,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 872,
+        "incorrect": 33,
+        "unknown": 95,
+        "accuracy_bounds": [
+          0.872,
+          0.967
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.037,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 2145050,
+        "successful_usage_records": 3030,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 965,
+        "incorrect": 33,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.965,
+          0.967
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.037,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 2145050,
+        "successful_usage_records": 3030,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 967,
+        "incorrect": 33,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.967,
+          0.967
+        ],
+        "execution_errors": 7,
+        "empty_answers": 7,
+        "mean_recorded_attempts": 3.037,
+        "stops": {
+          "reflection_verdict_pass": 992,
+          "run_error": 7,
+          "hard_cap:calls": 1
+        },
+        "levels": {
+          "hard": 993,
+          "None": 7
+        },
+        "route_methods": {
+          "fixed_hard": 993,
+          "None": 7
+        },
+        "known_usage_tokens": 2145050,
+        "successful_usage_records": 3030,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_ablation_no_reflection_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 487,
+        "incorrect": 404,
+        "unknown": 109,
+        "accuracy_bounds": [
+          0.487,
+          0.596
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.25,
+        "stops": {
+          "direct_single_shot": 318,
+          "planned_single_shot": 682
+        },
+        "levels": {
+          "easy": 318,
+          "hard": 358,
+          "medium": 324
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 568,
+          "rule_high": 221
+        },
+        "known_usage_tokens": 879423,
+        "successful_usage_records": 2250,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 489,
+        "incorrect": 402,
+        "unknown": 109,
+        "accuracy_bounds": [
+          0.489,
+          0.598
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.25,
+        "stops": {
+          "direct_single_shot": 318,
+          "planned_single_shot": 682
+        },
+        "levels": {
+          "easy": 318,
+          "hard": 358,
+          "medium": 324
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 568,
+          "rule_high": 221
+        },
+        "known_usage_tokens": 879423,
+        "successful_usage_records": 2250,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 538,
+        "incorrect": 460,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.538,
+          0.54
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.25,
+        "stops": {
+          "direct_single_shot": 318,
+          "planned_single_shot": 682
+        },
+        "levels": {
+          "easy": 318,
+          "hard": 358,
+          "medium": 324
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 568,
+          "rule_high": 221
+        },
+        "known_usage_tokens": 879423,
+        "successful_usage_records": 2250,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 538,
+        "incorrect": 462,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.538,
+          0.538
+        ],
+        "execution_errors": 0,
+        "empty_answers": 0,
+        "mean_recorded_attempts": 2.25,
+        "stops": {
+          "direct_single_shot": 318,
+          "planned_single_shot": 682
+        },
+        "levels": {
+          "easy": 318,
+          "hard": 358,
+          "medium": 324
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 568,
+          "rule_high": 221
+        },
+        "known_usage_tokens": 879423,
+        "successful_usage_records": 2250,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_ablation_fixed_stop2_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 862,
+        "incorrect": 42,
+        "unknown": 96,
+        "accuracy_bounds": [
+          0.862,
+          0.958
+        ],
+        "execution_errors": 10,
+        "empty_answers": 10,
+        "mean_recorded_attempts": 2.706,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 359,
+          "reflection_verdict_pass": 363,
+          "fixed_rounds:2": 9,
+          "run_error": 10
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 359,
+          "hard": 372,
+          "None": 10
+        },
+        "route_methods": {
+          "rule_low": 210,
+          "judge": 564,
+          "rule_high": 216,
+          "None": 10
+        },
+        "known_usage_tokens": 2144877,
+        "successful_usage_records": 2695,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 865,
+        "incorrect": 39,
+        "unknown": 96,
+        "accuracy_bounds": [
+          0.865,
+          0.961
+        ],
+        "execution_errors": 10,
+        "empty_answers": 10,
+        "mean_recorded_attempts": 2.706,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 359,
+          "reflection_verdict_pass": 363,
+          "fixed_rounds:2": 9,
+          "run_error": 10
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 359,
+          "hard": 372,
+          "None": 10
+        },
+        "route_methods": {
+          "rule_low": 210,
+          "judge": 564,
+          "rule_high": 216,
+          "None": 10
+        },
+        "known_usage_tokens": 2144877,
+        "successful_usage_records": 2695,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 959,
+        "incorrect": 39,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.959,
+          0.961
+        ],
+        "execution_errors": 10,
+        "empty_answers": 10,
+        "mean_recorded_attempts": 2.706,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 359,
+          "reflection_verdict_pass": 363,
+          "fixed_rounds:2": 9,
+          "run_error": 10
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 359,
+          "hard": 372,
+          "None": 10
+        },
+        "route_methods": {
+          "rule_low": 210,
+          "judge": 564,
+          "rule_high": 216,
+          "None": 10
+        },
+        "known_usage_tokens": 2144877,
+        "successful_usage_records": 2695,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 961,
+        "incorrect": 39,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.961,
+          0.961
+        ],
+        "execution_errors": 10,
+        "empty_answers": 10,
+        "mean_recorded_attempts": 2.706,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 359,
+          "reflection_verdict_pass": 363,
+          "fixed_rounds:2": 9,
+          "run_error": 10
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 359,
+          "hard": 372,
+          "None": 10
+        },
+        "route_methods": {
+          "rule_low": 210,
+          "judge": 564,
+          "rule_high": 216,
+          "None": 10
+        },
+        "known_usage_tokens": 2144877,
+        "successful_usage_records": 2695,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_ablation_fixed_stop2_ignore_pass_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 811,
+        "incorrect": 95,
+        "unknown": 94,
+        "accuracy_bounds": [
+          0.811,
+          0.905
+        ],
+        "execution_errors": 64,
+        "empty_answers": 64,
+        "mean_recorded_attempts": 3.709,
+        "stops": {
+          "direct_single_shot": 255,
+          "planned_single_shot": 330,
+          "run_error": 64,
+          "fixed_rounds:2": 351
+        },
+        "levels": {
+          "easy": 255,
+          "medium": 330,
+          "None": 64,
+          "hard": 351
+        },
+        "route_methods": {
+          "rule_low": 203,
+          "judge": 528,
+          "None": 64,
+          "rule_high": 199,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 3344419,
+        "successful_usage_records": 3626,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 812,
+        "incorrect": 94,
+        "unknown": 94,
+        "accuracy_bounds": [
+          0.812,
+          0.906
+        ],
+        "execution_errors": 64,
+        "empty_answers": 64,
+        "mean_recorded_attempts": 3.709,
+        "stops": {
+          "direct_single_shot": 255,
+          "planned_single_shot": 330,
+          "run_error": 64,
+          "fixed_rounds:2": 351
+        },
+        "levels": {
+          "easy": 255,
+          "medium": 330,
+          "None": 64,
+          "hard": 351
+        },
+        "route_methods": {
+          "rule_low": 203,
+          "judge": 528,
+          "None": 64,
+          "rule_high": 199,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 3344419,
+        "successful_usage_records": 3626,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 904,
+        "incorrect": 94,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.904,
+          0.906
+        ],
+        "execution_errors": 64,
+        "empty_answers": 64,
+        "mean_recorded_attempts": 3.709,
+        "stops": {
+          "direct_single_shot": 255,
+          "planned_single_shot": 330,
+          "run_error": 64,
+          "fixed_rounds:2": 351
+        },
+        "levels": {
+          "easy": 255,
+          "medium": 330,
+          "None": 64,
+          "hard": 351
+        },
+        "route_methods": {
+          "rule_low": 203,
+          "judge": 528,
+          "None": 64,
+          "rule_high": 199,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 3344419,
+        "successful_usage_records": 3626,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 906,
+        "incorrect": 94,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.906,
+          0.906
+        ],
+        "execution_errors": 64,
+        "empty_answers": 64,
+        "mean_recorded_attempts": 3.709,
+        "stops": {
+          "direct_single_shot": 255,
+          "planned_single_shot": 330,
+          "run_error": 64,
+          "fixed_rounds:2": 351
+        },
+        "levels": {
+          "easy": 255,
+          "medium": 330,
+          "None": 64,
+          "hard": 351
+        },
+        "route_methods": {
+          "rule_low": 203,
+          "judge": 528,
+          "None": 64,
+          "rule_high": 199,
+          "rule_fallback": 6
+        },
+        "known_usage_tokens": 3344419,
+        "successful_usage_records": 3626,
+        "records_with_missing_billing": 1000
+      }
+    }
+  },
+  "formal_math_qwen_20261014": {
+    "frozen": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 908,
+        "incorrect": 53,
+        "unknown": 39,
+        "accuracy_bounds": [
+          0.908,
+          0.947
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.629,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 419,
+          "reflection_verdict_pass": 299,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 419,
+          "hard": 299,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 558,
+          "rule_high": 207,
+          "rule_fallback": 1,
+          "None": 23
+        },
+        "known_usage_tokens": 2945016,
+        "successful_usage_records": 2605,
+        "records_with_missing_billing": 1000
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 918,
+        "incorrect": 45,
+        "unknown": 37,
+        "accuracy_bounds": [
+          0.918,
+          0.955
+        ],
+        "execution_errors": 9,
+        "empty_answers": 9,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 991,
+          "run_error": 9
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 861521,
+        "successful_usage_records": 991,
+        "records_with_missing_billing": 1000
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 905,
+        "incorrect": 58,
+        "unknown": 37,
+        "accuracy_bounds": [
+          0.905,
+          0.942
+        ],
+        "execution_errors": 30,
+        "empty_answers": 30,
+        "mean_recorded_attempts": 3.026,
+        "stops": {
+          "reflection_verdict_pass": 960,
+          "fixed_rounds:2": 10,
+          "run_error": 30
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 3388022,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 1000
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 910,
+        "incorrect": 44,
+        "unknown": 46,
+        "accuracy_bounds": [
+          0.91,
+          0.956
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 1.996,
+        "stops": {
+          "planned_single_shot": 989,
+          "run_error": 11
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1580286,
+        "successful_usage_records": 1985,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 913,
+        "incorrect": 51,
+        "unknown": 36,
+        "accuracy_bounds": [
+          0.913,
+          0.949
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.972,
+        "stops": {
+          "None": 977,
+          "run_error": 23
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2411670,
+        "successful_usage_records": 2949,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "historical_author": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 910,
+        "incorrect": 51,
+        "unknown": 39,
+        "accuracy_bounds": [
+          0.91,
+          0.949
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.629,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 419,
+          "reflection_verdict_pass": 299,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 419,
+          "hard": 299,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 558,
+          "rule_high": 207,
+          "rule_fallback": 1,
+          "None": 23
+        },
+        "known_usage_tokens": 2945016,
+        "successful_usage_records": 2605,
+        "records_with_missing_billing": 1000
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 922,
+        "incorrect": 41,
+        "unknown": 37,
+        "accuracy_bounds": [
+          0.922,
+          0.959
+        ],
+        "execution_errors": 9,
+        "empty_answers": 9,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 991,
+          "run_error": 9
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 861521,
+        "successful_usage_records": 991,
+        "records_with_missing_billing": 1000
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 908,
+        "incorrect": 55,
+        "unknown": 37,
+        "accuracy_bounds": [
+          0.908,
+          0.945
+        ],
+        "execution_errors": 30,
+        "empty_answers": 30,
+        "mean_recorded_attempts": 3.026,
+        "stops": {
+          "reflection_verdict_pass": 960,
+          "fixed_rounds:2": 10,
+          "run_error": 30
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 3388022,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 1000
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 914,
+        "incorrect": 40,
+        "unknown": 46,
+        "accuracy_bounds": [
+          0.914,
+          0.96
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 1.996,
+        "stops": {
+          "planned_single_shot": 989,
+          "run_error": 11
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1580286,
+        "successful_usage_records": 1985,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 916,
+        "incorrect": 48,
+        "unknown": 36,
+        "accuracy_bounds": [
+          0.916,
+          0.952
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.972,
+        "stops": {
+          "None": 977,
+          "run_error": 23
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2411670,
+        "successful_usage_records": 2949,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_original_gold": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 955,
+        "incorrect": 44,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.955,
+          0.956
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.629,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 419,
+          "reflection_verdict_pass": 299,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 419,
+          "hard": 299,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 558,
+          "rule_high": 207,
+          "rule_fallback": 1,
+          "None": 23
+        },
+        "known_usage_tokens": 2945016,
+        "successful_usage_records": 2605,
+        "records_with_missing_billing": 1000
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 957,
+        "incorrect": 42,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.957,
+          0.958
+        ],
+        "execution_errors": 9,
+        "empty_answers": 9,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 991,
+          "run_error": 9
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 861521,
+        "successful_usage_records": 991,
+        "records_with_missing_billing": 1000
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 953,
+        "incorrect": 46,
+        "unknown": 1,
+        "accuracy_bounds": [
+          0.953,
+          0.954
+        ],
+        "execution_errors": 30,
+        "empty_answers": 30,
+        "mean_recorded_attempts": 3.026,
+        "stops": {
+          "reflection_verdict_pass": 960,
+          "fixed_rounds:2": 10,
+          "run_error": 30
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 3388022,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 1000
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 957,
+        "incorrect": 41,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.957,
+          0.959
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 1.996,
+        "stops": {
+          "planned_single_shot": 989,
+          "run_error": 11
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1580286,
+        "successful_usage_records": 1985,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 950,
+        "incorrect": 48,
+        "unknown": 2,
+        "accuracy_bounds": [
+          0.95,
+          0.952
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.972,
+        "stops": {
+          "None": 977,
+          "run_error": 23
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2411670,
+        "successful_usage_records": 2949,
+        "records_with_missing_billing": 1000
+      }
+    },
+    "audit_gold_sensitivity": {
+      "adaptive": {
+        "n": 1000,
+        "correct": 956,
+        "incorrect": 44,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.956,
+          0.956
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.629,
+        "stops": {
+          "direct_single_shot": 259,
+          "planned_single_shot": 419,
+          "reflection_verdict_pass": 299,
+          "run_error": 23
+        },
+        "levels": {
+          "easy": 259,
+          "medium": 419,
+          "hard": 299,
+          "None": 23
+        },
+        "route_methods": {
+          "rule_low": 211,
+          "judge": 558,
+          "rule_high": 207,
+          "rule_fallback": 1,
+          "None": 23
+        },
+        "known_usage_tokens": 2945016,
+        "successful_usage_records": 2605,
+        "records_with_missing_billing": 1000
+      },
+      "direct": {
+        "n": 1000,
+        "correct": 958,
+        "incorrect": 42,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.958,
+          0.958
+        ],
+        "execution_errors": 9,
+        "empty_answers": 9,
+        "mean_recorded_attempts": 1.0,
+        "stops": {
+          "direct_single_shot": 991,
+          "run_error": 9
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 861521,
+        "successful_usage_records": 991,
+        "records_with_missing_billing": 1000
+      },
+      "plan_reflect": {
+        "n": 1000,
+        "correct": 954,
+        "incorrect": 46,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.954,
+          0.954
+        ],
+        "execution_errors": 30,
+        "empty_answers": 30,
+        "mean_recorded_attempts": 3.026,
+        "stops": {
+          "reflection_verdict_pass": 960,
+          "fixed_rounds:2": 10,
+          "run_error": 30
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 3388022,
+        "successful_usage_records": 2996,
+        "records_with_missing_billing": 1000
+      },
+      "planning": {
+        "n": 1000,
+        "correct": 959,
+        "incorrect": 41,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.959,
+          0.959
+        ],
+        "execution_errors": 11,
+        "empty_answers": 11,
+        "mean_recorded_attempts": 1.996,
+        "stops": {
+          "planned_single_shot": 989,
+          "run_error": 11
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 1580286,
+        "successful_usage_records": 1985,
+        "records_with_missing_billing": 1000
+      },
+      "vote_k": {
+        "n": 1000,
+        "correct": 952,
+        "incorrect": 48,
+        "unknown": 0,
+        "accuracy_bounds": [
+          0.952,
+          0.952
+        ],
+        "execution_errors": 23,
+        "empty_answers": 23,
+        "mean_recorded_attempts": 2.972,
+        "stops": {
+          "None": 977,
+          "run_error": 23
+        },
+        "levels": {
+          "None": 1000
+        },
+        "route_methods": {
+          "None": 1000
+        },
+        "known_usage_tokens": 2411670,
+        "successful_usage_records": 2949,
+        "records_with_missing_billing": 1000
+      }
+    }
+  }
+}

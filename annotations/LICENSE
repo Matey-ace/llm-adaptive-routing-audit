@@ -1,0 +1,10 @@
+SPDX-License-Identifier: GPL-3.0-only
+
+Copyright (c) 2026 Mai Ye
+
+The annotation compilation, de-identified label ledger and author adjudication
+text in this directory are released under the GNU General Public License,
+version 3 only. The complete licence is in ../LICENSES/GPL-3.0-only.txt.
+Individual factual labels may not themselves attract copyright. This notice
+does not claim new exclusive rights in facts or relicense benchmark text,
+model outputs, or third-party rater prose; these are not included here.
