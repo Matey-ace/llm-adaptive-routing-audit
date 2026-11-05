@@ -1,6 +1,7 @@
 {
   "status": "local_review_candidate",
-  "version": "20261105.audit.1",
+  "release_status": "author_approved_archive_submission_on_hold",
+  "version": "20261105.audit.release.1",
   "files": [
     {
       "path": "code/__init__.py",
@@ -598,19 +599,49 @@
       "sha256": "6da2b8e1479bcd4e627594dfd021d8d77275bf00cc1b507e56e9246b92f783e1"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1084,
+      "sha256": "7ef07940e829690470ff8d9fed14eddc594b091740a20df9bee82463ac608470"
+    },
+    {
+      "path": "LICENSES/GPL-3.0-only.txt",
+      "bytes": 34906,
+      "sha256": "cde3a5c4c116f8cde7ba83ee7a4a885bc591164195b6123bfcbcdc3a52f9a88c"
+    },
+    {
       "path": "NOTICE.md",
-      "bytes": 1693,
-      "sha256": "ee766e22549dd6d1e7e6f069018abb47e5283b13948fac0d4a164b874a439c16"
+      "bytes": 2226,
+      "sha256": "bda98ae5f0afd60615e8603d15776f78fd4e27ad0dd435afcd497a021fb44722"
     },
     {
       "path": "PROVENANCE.json",
-      "bytes": 76727,
-      "sha256": "1ea98692e5885288cf5d9be649778a815435a6a9049fa3064e360fb7ab7aaeca"
+      "bytes": 77004,
+      "sha256": "b88528fc33039097b594ae4d6453f56e1f0c22473395a0003cd9826d8c10d868"
+    },
+    {
+      "path": "public_annotation_ledger/author_adjudications_87.json",
+      "bytes": 48323,
+      "sha256": "14a1ccac3b05c7d2a1fab8c7671f54a106ba4c06dcaa77d8bf395924113dda90"
+    },
+    {
+      "path": "public_annotation_ledger/LICENSE",
+      "bytes": 524,
+      "sha256": "ae760c35352c1968c70b4b5c9db824db3830b63599d86f8113781c8f26250a41"
+    },
+    {
+      "path": "public_annotation_ledger/paired_labels_1216.json",
+      "bytes": 610392,
+      "sha256": "b03d1f036a3b2c8dfc995e73de64ae3982d220f1ce461e18c82b76fbf600044d"
+    },
+    {
+      "path": "public_annotation_ledger/provenance.json",
+      "bytes": 2120,
+      "sha256": "58abf2f2c9fa09a4c2008d81770166c9ff683c04ffadda1f13fdd58519fedbee"
     },
     {
       "path": "README.md",
-      "bytes": 2846,
-      "sha256": "262aeff215d9046074faba07329c9688348319224507b3bc584b27b73af4fbbb"
+      "bytes": 3008,
+      "sha256": "4971b79a0831ccc6b8625922f3c2e6400f31b843812ef5221e8ae9ae56fbc1a5"
     },
     {
       "path": "reference_source/agents/__init__.py",

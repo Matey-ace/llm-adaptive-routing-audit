@@ -27,8 +27,9 @@ the three strata's pre-adjudication agreement and author-adjudication totals.
 ## Full stored-output reconstruction
 
 Obtain the accompanying `ESM_2.zip` (Online Resource 2) from the article's
-supplementary materials when released by the journal. It is supplied to the
-editorial system with the manuscript; no public journal download URL exists yet.
+supplementary materials when released by the journal. The manuscript's
+supplementary archive is prepared separately; a public journal download URL
+is not available at this stage.
 Extract it into a separate directory. Install `requirements.txt` before working
 offline, then run, with new output directories outside the extracted archive:
 
