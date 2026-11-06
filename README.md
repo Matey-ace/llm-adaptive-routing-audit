@@ -1,4 +1,4 @@
-# SNCS adaptive-routing audit
+# llm-adaptive-routing-audit
 
 Code and de-identified annotation ledger accompanying **Quality and Resource
 Tradeoffs in Adaptive Routing for LLM Mathematical Reasoning**, Mai Ye.
